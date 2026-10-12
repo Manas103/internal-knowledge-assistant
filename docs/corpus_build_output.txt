@@ -1,0 +1,15 @@
+{
+  "total_passages": 396,
+  "by_doc": {
+    "cxl11_spec": 250,
+    "cxl20_errata": 66,
+    "astera_aries_brief": 3,
+    "arxiv_cxl_survey": 15,
+    "arxiv_disaggregated_memory_survey": 35,
+    "arxiv_memory_disaggregation": 9,
+    "astera_scorpio_brief": 3,
+    "astera_leo_brief": 2,
+    "wikipedia_pci_express": 10,
+    "wikipedia_cxl": 3
+  }
+}

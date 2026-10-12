@@ -1,0 +1,16 @@
+
+> internal-knowledge-assistant-frontend@0.1.0 test
+> vitest run
+
+
+[1m[7m[36m RUN [39m[27m[22m [36mv2.1.9 [39m[90mC:/Users/Manas/Downloads/Auto Job Applier/Total Job Application process flow/projects/internal-knowledge-assistant/frontend[39m
+
+ [32m✓[39m tests/App.test.tsx [2m([22m[2m3 tests[22m[2m)[22m[33m 1366[2mms[22m[39m
+   [33m[2m✓[22m[39m App[2m > [22masks a question and shows the citation [33m496[2mms[22m[39m
+   [33m[2m✓[22m[39m App[2m > [22mrecords a reviewer decision into the session history table [33m607[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m1 passed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[32m3 passed[39m[22m[90m (3)[39m
+[2m   Start at [22m 11:13:49
+[2m   Duration [22m 3.05s[2m (transform 47ms, setup 135ms, collect 236ms, tests 1.37s, environment 912ms, prepare 102ms)[22m
+

@@ -1,0 +1,95 @@
+{
+  "_comment": "Real public sources this project's corpus is built from. scripts/fetch_corpus.py downloads exactly these URLs into data/raw/ (gitignored) and verifies each file's sha256 against this manifest before scripts/ingest.py chunks it. The CXL and PCIe specification PDFs are copyrighted by the CXL Consortium / PCI-SIG (the CXL 1.1 PDF is explicitly an Evaluation Copy); this repo therefore never commits their extracted text, only this manifest, the fetch/ingest scripts, and the measured page counts in docs/.",
+  "sources": [
+    {
+      "id": "cxl11_spec",
+      "title": "Compute Express Link (CXL) 1.1 Specification",
+      "url": "https://computeexpresslink.org/wp-content/uploads/2024/02/CXL-1.1-Specification.pdf",
+      "sha256": "ef78a0d5a2e31a3ec38efff43472586ddb107064d2e7ffde644bce971e02c452",
+      "format": "pdf",
+      "license_note": "CXL Consortium Evaluation Copy; hosted for public download without login as of this build. Used here only to build a local text index for a personal retrieval project; this repo never commits the extracted text.",
+      "measured_pages": 250
+    },
+    {
+      "id": "cxl20_errata",
+      "title": "CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021)",
+      "url": "https://computeexpresslink.org/wp-content/uploads/2024/02/CXL-2.0-Errata-and-Clarifications-to-the-Compute-Express-Link-Specification-May-2021.pdf",
+      "sha256": "d13386a7dff0e39a91d84ba82e1658cf67a78986f1d4a8ff6b2d8e5a6d8bde4b",
+      "format": "pdf",
+      "license_note": "CXL Consortium Evaluation Copy, hosted for public download without login as of this build.",
+      "measured_pages": 66
+    },
+    {
+      "id": "astera_aries_brief",
+      "title": "Aries PCIe/CXL Smart Cable Modules (Astera Labs product brief)",
+      "url": "https://www.asteralabs.com/wp-content/uploads/2026/02/Aries_PCIe_CXL_Smart_Cable_Modules.pdf",
+      "sha256": "268897f68e632cc30733d1171db47af14b079f992259ce3bd6f45c087b821edd",
+      "format": "pdf",
+      "license_note": "Public product brief hosted on asteralabs.com.",
+      "measured_pages": 3
+    },
+    {
+      "id": "arxiv_cxl_survey",
+      "title": "Next-Gen Computing Systems with Compute Express Link: a Comprehensive Survey (arXiv:2412.20249)",
+      "url": "https://arxiv.org/pdf/2412.20249",
+      "sha256": "84e0f2a822e04bdfeccd8e55073d2dac66814bf733e9111d2f48955277de6212",
+      "format": "pdf",
+      "license_note": "arXiv preprint, freely downloadable; this project indexes it for a personal retrieval demo and never commits the extracted text.",
+      "measured_pages": 15
+    },
+    {
+      "id": "arxiv_disaggregated_memory_survey",
+      "title": "Survey of Disaggregated Memory: Cross-layer Technique Insights for Next-Generation Datacenters (arXiv:2503.20275)",
+      "url": "https://arxiv.org/pdf/2503.20275",
+      "sha256": "0073acda86e17094795bdca8a38bca3cddc69b58ce3004b4e8bacacea3600270",
+      "format": "pdf",
+      "license_note": "arXiv preprint, freely downloadable.",
+      "measured_pages": 35
+    },
+    {
+      "id": "arxiv_memory_disaggregation",
+      "title": "Memory Disaggregation: Advances and Open Challenges (arXiv:2305.03943)",
+      "url": "https://arxiv.org/pdf/2305.03943",
+      "sha256": "606ac2e0c6c3914aff075f609b53c6c46e7362391efb7ae0e8279feb8e19d447",
+      "format": "pdf",
+      "license_note": "arXiv preprint, freely downloadable.",
+      "measured_pages": 9
+    },
+    {
+      "id": "astera_scorpio_brief",
+      "title": "Scorpio Smart Fabric Switch Portfolio (Astera Labs product brief)",
+      "url": "https://www.asteralabs.com/wp-content/uploads/2025/05/PB_Scorpio_Smart_Fabric_Switches.pdf",
+      "sha256": "15a3052de3585cbb2e786d8391d7902dab6064810187e979d0e638dffdf98037",
+      "format": "pdf",
+      "license_note": "Public product brief hosted on asteralabs.com.",
+      "measured_pages": 3
+    },
+    {
+      "id": "astera_leo_brief",
+      "title": "Leo CXL Smart Memory Controllers (Astera Labs product brief)",
+      "url": "https://asteralabs.com/wp-content/uploads/2024/05/231220_Product_Brief_Leo_CXL_Smart_Memory_Controllers.pdf",
+      "sha256": "2acf6f14d593c43d35b394683b8e8bb5d2b9575d385660b8769124060d245459",
+      "format": "pdf",
+      "license_note": "Public product brief hosted on asteralabs.com.",
+      "measured_pages": 2
+    },
+    {
+      "id": "wikipedia_pci_express",
+      "title": "PCI Express (Wikipedia)",
+      "url": "https://en.wikipedia.org/w/index.php?title=PCI_Express&action=raw",
+      "sha256": "a9f007a2c51f198751579a63c330aec3887b1ae8e2e1c029c3c47fcd566212ce",
+      "format": "wikitext",
+      "license_note": "CC BY-SA 4.0, freely reproducible with attribution to Wikipedia contributors.",
+      "measured_pages": null
+    },
+    {
+      "id": "wikipedia_cxl",
+      "title": "Compute Express Link (Wikipedia)",
+      "url": "https://en.wikipedia.org/w/index.php?title=Compute_Express_Link&action=raw",
+      "sha256": "54704043e67b235f887e9e7385c73c6d1c4b578435eaf764ead3b27e919a85f6",
+      "format": "wikitext",
+      "license_note": "CC BY-SA 4.0, freely reproducible with attribution to Wikipedia contributors.",
+      "measured_pages": null
+    }
+  ]
+}

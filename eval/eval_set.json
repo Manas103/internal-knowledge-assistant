@@ -1,0 +1,1802 @@
+[
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of 0011 DEEPEST ALLOWABLE?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 127,
+    "key_phrase": "0011 DEEPEST ALLOWABLE"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of x8 Packet Layout?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 134,
+    "key_phrase": "x8 Packet Layout"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe forcibly react?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 218,
+    "key_phrase": "forcibly react"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of Read0 01000 CleanEvict?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 48,
+    "key_phrase": "Read0 01000 CleanEvict"
+  },
+  {
+    "question": "How does CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021) describe Mask 0xFFFFFFFFFFFFFFFF 34h?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 33,
+    "key_phrase": "Mask 0xFFFFFFFFFFFFFFFF 34h"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of BIOS shall report?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 177,
+    "key_phrase": "BIOS shall report"
+  },
+  {
+    "question": "According to Next-Gen Computing Systems with Compute Express Link: a Comprehensive Survey (arXiv:2412.20249), what is the role of posable infrastructures treating?",
+    "expected_doc_id": "arxiv_cxl_survey",
+    "expected_page_number": 9,
+    "key_phrase": "posable infrastructures treating"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about Port BARs hidden?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 174,
+    "key_phrase": "Port BARs hidden"
+  },
+  {
+    "question": "How does Survey of Disaggregated Memory: Cross-layer Technique Insights for Next-Generation Datacenters (arXiv:2503.20275) describe prevents unnecessary duplication?",
+    "expected_doc_id": "arxiv_disaggregated_memory_survey",
+    "expected_page_number": 25,
+    "key_phrase": "prevents unnecessary duplication"
+  },
+  {
+    "question": "According to CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021), what is the role of F24 Querying Critical?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 45,
+    "key_phrase": "F24 Querying Critical"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of coordinated Figure 109?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 186,
+    "key_phrase": "coordinated Figure 109"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of LLCTRL SubType SubType?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 102,
+    "key_phrase": "LLCTRL SubType SubType"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of H4 M2S RwD?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 89,
+    "key_phrase": "H4 M2S RwD"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about RSP PRE carries?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 41,
+    "key_phrase": "RSP PRE carries"
+  },
+  {
+    "question": "According to CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021), what is the role of RW1CS Rx IDE?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 13,
+    "key_phrase": "RW1CS Rx IDE"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe uniform manner just?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 25,
+    "key_phrase": "uniform manner just"
+  },
+  {
+    "question": "How does Leo CXL Smart Memory Controllers (Astera Labs product brief) describe 2TB Yes Yes?",
+    "expected_doc_id": "astera_leo_brief",
+    "expected_page_number": 2,
+    "key_phrase": "2TB Yes Yes"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of 1000h 0000 1FFFh?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 158,
+    "key_phrase": "1000h 0000 1FFFh"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe S3 S4 S5?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 171,
+    "key_phrase": "S3 S4 S5"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about ExtCmp 0110 Don?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 56,
+    "key_phrase": "ExtCmp 0110 Don"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe chapter highlights notable?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 29,
+    "key_phrase": "chapter highlights notable"
+  },
+  {
+    "question": "How does Memory Disaggregation: Advances and Open Challenges (arXiv:2305.03943) describe contributions 659 attachments?",
+    "expected_doc_id": "arxiv_memory_disaggregation",
+    "expected_page_number": 8,
+    "key_phrase": "contributions 659 attachments"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about credits Releasing credits?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 34,
+    "key_phrase": "credits Releasing credits"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe H5 G5 H5?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 86,
+    "key_phrase": "H5 G5 H5"
+  },
+  {
+    "question": "According to CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021), what is the role of 30 F6 Secure?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 30,
+    "key_phrase": "30 F6 Secure"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe Receiver Overflow Severity?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 162,
+    "key_phrase": "Receiver Overflow Severity"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe Flexbus Slot Auxiliary?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 6,
+    "key_phrase": "Flexbus Slot Auxiliary"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of 107 PkgC Exit?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 184,
+    "key_phrase": "107 PkgC Exit"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about Security Security requirements?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 193,
+    "key_phrase": "Security Security requirements"
+  },
+  {
+    "question": "How does CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021) describe vLSM L2 Upon?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 6,
+    "key_phrase": "vLSM L2 Upon"
+  },
+  {
+    "question": "According to Scorpio Smart Fabric Switch Portfolio (Astera Labs product brief), what is the role of Astera Labs devised?",
+    "expected_doc_id": "astera_scorpio_brief",
+    "expected_page_number": 3,
+    "key_phrase": "Astera Labs devised"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about PERST Warning PM2IP?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 169,
+    "key_phrase": "PERST Warning PM2IP"
+  },
+  {
+    "question": "How does Memory Disaggregation: Advances and Open Challenges (arXiv:2305.03943) describe objective SLO violations?",
+    "expected_doc_id": "arxiv_memory_disaggregation",
+    "expected_page_number": 3,
+    "key_phrase": "objective SLO violations"
+  },
+  {
+    "question": "How does Survey of Disaggregated Memory: Cross-layer Technique Insights for Next-Generation Datacenters (arXiv:2503.20275) describe eight DDR4 banks?",
+    "expected_doc_id": "arxiv_disaggregated_memory_survey",
+    "expected_page_number": 6,
+    "key_phrase": "eight DDR4 banks"
+  },
+  {
+    "question": "According to Compute Express Link (Wikipedia), what is the role of Agilex FPGAs featuring?",
+    "expected_doc_id": "wikipedia_cxl",
+    "expected_page_number": 2,
+    "key_phrase": "Agilex FPGAs featuring"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of Bus layered hierarchy?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 129,
+    "key_phrase": "Bus layered hierarchy"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of caches called Dev?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 67,
+    "key_phrase": "caches called Dev"
+  },
+  {
+    "question": "How does Memory Disaggregation: Advances and Open Challenges (arXiv:2305.03943) describe fair queuing congestion?",
+    "expected_doc_id": "arxiv_memory_disaggregation",
+    "expected_page_number": 7,
+    "key_phrase": "fair queuing congestion"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of Integrated Endpoints RCiEP?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 145,
+    "key_phrase": "Integrated Endpoints RCiEP"
+  },
+  {
+    "question": "How does Next-Gen Computing Systems with Compute Express Link: a Comprehensive Survey (arXiv:2412.20249) describe widely discussed topic?",
+    "expected_doc_id": "arxiv_cxl_survey",
+    "expected_page_number": 11,
+    "key_phrase": "widely discussed topic"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of weakly ordered semantic?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 71,
+    "key_phrase": "weakly ordered semantic"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe 2R O Algorithm1b?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 240,
+    "key_phrase": "2R O Algorithm1b"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about 72 LLCRD Flit?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 104,
+    "key_phrase": "72 LLCRD Flit"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe implying monotonically decreasing?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 207,
+    "key_phrase": "implying monotonically decreasing"
+  },
+  {
+    "question": "According to CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021), what is the role of 5 2021 4?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 4,
+    "key_phrase": "5 2021 4"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of DeviceErrorInjection CompleterTimeoutInjection 0x1?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 239,
+    "key_phrase": "DeviceErrorInjection CompleterTimeoutInjection 0x1"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe RspIHitI RspVhitV RspSHitSE?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 55,
+    "key_phrase": "RspIHitI RspVhitV RspSHitSE"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of targets UQID 12?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 40,
+    "key_phrase": "targets UQID 12"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about matching PMRsp message?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 183,
+    "key_phrase": "matching PMRsp message"
+  },
+  {
+    "question": "How does Survey of Disaggregated Memory: Cross-layer Technique Insights for Next-Generation Datacenters (arXiv:2503.20275) describe loosely coupled monitors?",
+    "expected_doc_id": "arxiv_disaggregated_memory_survey",
+    "expected_page_number": 16,
+    "key_phrase": "loosely coupled monitors"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about Overflow First 3b?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 161,
+    "key_phrase": "Overflow First 3b"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of LinkLayerErrorInjection FlowControlInjection 0x2?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 238,
+    "key_phrase": "LinkLayerErrorInjection FlowControlInjection 0x2"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of cause cascading timeouts?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 198,
+    "key_phrase": "cause cascading timeouts"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about cache WrInv Transaction?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 46,
+    "key_phrase": "cache WrInv Transaction"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe Unchanged Unchanged drop?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 110,
+    "key_phrase": "Unchanged Unchanged drop"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of MemOpcode Addr 5?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 61,
+    "key_phrase": "MemOpcode Addr 5"
+  },
+  {
+    "question": "How does CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021) describe Factor limitations F4?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 8,
+    "key_phrase": "Factor limitations F4"
+  },
+  {
+    "question": "According to Memory Disaggregation: Advances and Open Challenges (arXiv:2305.03943), what is the role of excessive underutilization leads?",
+    "expected_doc_id": "arxiv_memory_disaggregation",
+    "expected_page_number": 1,
+    "key_phrase": "excessive underutilization leads"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of resolving coherency sends?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 73,
+    "key_phrase": "resolving coherency sends"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of SnpCur Cmp MemData?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 63,
+    "key_phrase": "SnpCur Cmp MemData"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about 01110 CacheFlushed Read0?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 49,
+    "key_phrase": "01110 CacheFlushed Read0"
+  },
+  {
+    "question": "According to CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021), what is the role of HBIG MOD NIW?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 62,
+    "key_phrase": "HBIG MOD NIW"
+  },
+  {
+    "question": "According to CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021), what is the role of Attributes Table1 CDAT?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 64,
+    "key_phrase": "Attributes Table1 CDAT"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about MB0U and MB0D?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 227,
+    "key_phrase": "MB0U and MB0D"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe Relaxed Global Observation?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 4,
+    "key_phrase": "Relaxed Global Observation"
+  },
+  {
+    "question": "According to CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021), what is the role of R1 R2 CONFIG?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 39,
+    "key_phrase": "R1 R2 CONFIG"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of 40 RWL FlushCache?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 244,
+    "key_phrase": "40 RWL FlushCache"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about 1N 1M 1N?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 179,
+    "key_phrase": "1N 1M 1N"
+  },
+  {
+    "question": "How does Memory Disaggregation: Advances and Open Challenges (arXiv:2305.03943) describe ns 180 ns?",
+    "expected_doc_id": "arxiv_memory_disaggregation",
+    "expected_page_number": 4,
+    "key_phrase": "ns 180 ns"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of fixed 528b There?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 81,
+    "key_phrase": "fixed 528b There"
+  },
+  {
+    "question": "How does Survey of Disaggregated Memory: Cross-layer Technique Insights for Next-Generation Datacenters (arXiv:2503.20275) describe Evangelos Vasilakis Vassilis?",
+    "expected_doc_id": "arxiv_disaggregated_memory_survey",
+    "expected_page_number": 34,
+    "key_phrase": "Evangelos Vasilakis Vassilis"
+  },
+  {
+    "question": "What does Survey of Disaggregated Memory: Cross-layer Technique Insights for Next-Generation Datacenters (arXiv:2503.20275) say about App APIs App?",
+    "expected_doc_id": "arxiv_disaggregated_memory_survey",
+    "expected_page_number": 17,
+    "key_phrase": "App APIs App"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe ID Dro pped?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 138,
+    "key_phrase": "ID Dro pped"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about 61 H3 S2M?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 95,
+    "key_phrase": "61 H3 S2M"
+  },
+  {
+    "question": "What does CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021) say about Wrtie Streaming 9h?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 31,
+    "key_phrase": "Wrtie Streaming 9h"
+  },
+  {
+    "question": "What does Survey of Disaggregated Memory: Cross-layer Technique Insights for Next-Generation Datacenters (arXiv:2503.20275) say about Looking ahead Advancements?",
+    "expected_doc_id": "arxiv_disaggregated_memory_survey",
+    "expected_page_number": 15,
+    "key_phrase": "Looking ahead Advancements"
+  },
+  {
+    "question": "According to Next-Gen Computing Systems with Compute Express Link: a Comprehensive Survey (arXiv:2412.20249), what is the role of earliest publicly disclosed?",
+    "expected_doc_id": "arxiv_cxl_survey",
+    "expected_page_number": 8,
+    "key_phrase": "earliest publicly disclosed"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe adapts accordingly Key?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 27,
+    "key_phrase": "adapts accordingly Key"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about obvious disadvantage?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 24,
+    "key_phrase": "obvious disadvantage"
+  },
+  {
+    "question": "What does CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021) say about F28 CEDT CFMWS?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 3,
+    "key_phrase": "F28 CEDT CFMWS"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe Sync Headers observed?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 219,
+    "key_phrase": "Sync Headers observed"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about implementation perspective Consequently?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 112,
+    "key_phrase": "implementation perspective Consequently"
+  },
+  {
+    "question": "How does Next-Gen Computing Systems with Compute Express Link: a Comprehensive Survey (arXiv:2412.20249) describe demo stage lacking?",
+    "expected_doc_id": "arxiv_cxl_survey",
+    "expected_page_number": 12,
+    "key_phrase": "demo stage lacking"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about C6124 0003 BN?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 2,
+    "key_phrase": "C6124 0003 BN"
+  },
+  {
+    "question": "What does Scorpio Smart Fabric Switch Portfolio (Astera Labs product brief) say about fostering trusted partnerships?",
+    "expected_doc_id": "astera_scorpio_brief",
+    "expected_page_number": 1,
+    "key_phrase": "fostering trusted partnerships"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about order completely unambiguous?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 57,
+    "key_phrase": "order completely unambiguous"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of indeed finished poisoning?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 230,
+    "key_phrase": "indeed finished poisoning"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe doesn t occur?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 212,
+    "key_phrase": "doesn t occur"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about RdOwnNoData completion MemRdFwd?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 76,
+    "key_phrase": "RdOwnNoData completion MemRdFwd"
+  },
+  {
+    "question": "How does CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021) describe begin transmitting flits?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 43,
+    "key_phrase": "begin transmitting flits"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of implied EDS token?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 217,
+    "key_phrase": "implied EDS token"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of Active sequence starts?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 121,
+    "key_phrase": "Active sequence starts"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of IDLE tokens EDB?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 221,
+    "key_phrase": "IDLE tokens EDB"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of Capabilties Exceptions1 Notes?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 156,
+    "key_phrase": "Capabilties Exceptions1 Notes"
+  },
+  {
+    "question": "How does CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021) describe LinkError mustshould take?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 42,
+    "key_phrase": "LinkError mustshould take"
+  },
+  {
+    "question": "What does CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021) say about secondary mailboxes MS?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 47,
+    "key_phrase": "secondary mailboxes MS"
+  },
+  {
+    "question": "What does CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021) say about RW RO AddressIsVirtual?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 38,
+    "key_phrase": "RW RO AddressIsVirtual"
+  },
+  {
+    "question": "According to CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021), what is the role of programmable warning thresholds?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 25,
+    "key_phrase": "programmable warning thresholds"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about FastGO plus ExtCmp?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 45,
+    "key_phrase": "FastGO plus ExtCmp"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of Modifed TS1 TS2?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 140,
+    "key_phrase": "Modifed TS1 TS2"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about loss PCB material?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 202,
+    "key_phrase": "loss PCB material"
+  },
+  {
+    "question": "How does Survey of Disaggregated Memory: Cross-layer Technique Insights for Next-Generation Datacenters (arXiv:2503.20275) describe Metaverse Embodied AI?",
+    "expected_doc_id": "arxiv_disaggregated_memory_survey",
+    "expected_page_number": 5,
+    "key_phrase": "Metaverse Embodied AI"
+  },
+  {
+    "question": "According to Survey of Disaggregated Memory: Cross-layer Technique Insights for Next-Generation Datacenters (arXiv:2503.20275), what is the role of Cooperation Resource ctl?",
+    "expected_doc_id": "arxiv_disaggregated_memory_survey",
+    "expected_page_number": 2,
+    "key_phrase": "Cooperation Resource ctl"
+  },
+  {
+    "question": "How does CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021) describe LD 0xFFFF UP1?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 11,
+    "key_phrase": "LD 0xFFFF UP1"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about communicating across dies?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 60,
+    "key_phrase": "communicating across dies"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about ResetPrepAck ResetType Warm?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 170,
+    "key_phrase": "ResetPrepAck ResetType Warm"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about acronym definitions beyond?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 14,
+    "key_phrase": "acronym definitions beyond"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe situations describe circumstances?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 126,
+    "key_phrase": "situations describe circumstances"
+  },
+  {
+    "question": "According to Survey of Disaggregated Memory: Cross-layer Technique Insights for Next-Generation Datacenters (arXiv:2503.20275), what is the role of Pak Markthub Mehmet?",
+    "expected_doc_id": "arxiv_disaggregated_memory_survey",
+    "expected_page_number": 33,
+    "key_phrase": "Pak Markthub Mehmet"
+  },
+  {
+    "question": "What does PCI Express (Wikipedia) say about nbsp gigabaud divided?",
+    "expected_doc_id": "wikipedia_pci_express",
+    "expected_page_number": 6,
+    "key_phrase": "nbsp gigabaud divided"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about implicit writeback IWB?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 58,
+    "key_phrase": "implicit writeback IWB"
+  },
+  {
+    "question": "What does Survey of Disaggregated Memory: Cross-layer Technique Insights for Next-Generation Datacenters (arXiv:2503.20275) say about Weiland Holger Brunst?",
+    "expected_doc_id": "arxiv_disaggregated_memory_survey",
+    "expected_page_number": 35,
+    "key_phrase": "Weiland Holger Brunst"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe longer fences against?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 74,
+    "key_phrase": "longer fences against"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about organization possibilities depending?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 28,
+    "key_phrase": "organization possibilities depending"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe Intel 3D XPoint?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 150,
+    "key_phrase": "Intel 3D XPoint"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of Connector Pin List?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 201,
+    "key_phrase": "Connector Pin List"
+  },
+  {
+    "question": "According to Survey of Disaggregated Memory: Cross-layer Technique Insights for Next-Generation Datacenters (arXiv:2503.20275), what is the role of TCP IP NICMemory?",
+    "expected_doc_id": "arxiv_disaggregated_memory_survey",
+    "expected_page_number": 10,
+    "key_phrase": "TCP IP NICMemory"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about driver writer expertise?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 173,
+    "key_phrase": "driver writer expertise"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe even starvation Suppose?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 108,
+    "key_phrase": "even starvation Suppose"
+  },
+  {
+    "question": "What does Next-Gen Computing Systems with Compute Express Link: a Comprehensive Survey (arXiv:2412.20249) say about while barely touching?",
+    "expected_doc_id": "arxiv_cxl_survey",
+    "expected_page_number": 2,
+    "key_phrase": "while barely touching"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about Resp 116 G3?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 87,
+    "key_phrase": "Resp 116 G3"
+  },
+  {
+    "question": "According to CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021), what is the role of S1 S3 S4?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 65,
+    "key_phrase": "S1 S3 S4"
+  },
+  {
+    "question": "According to CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021), what is the role of Mask 0xFFFFFFFFFFFFFFFF 34h?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 35,
+    "key_phrase": "Mask 0xFFFFFFFFFFFFFFFF 34h"
+  },
+  {
+    "question": "What does Survey of Disaggregated Memory: Cross-layer Technique Insights for Next-Generation Datacenters (arXiv:2503.20275) say about HM imposes challenges?",
+    "expected_doc_id": "arxiv_disaggregated_memory_survey",
+    "expected_page_number": 22,
+    "key_phrase": "HM imposes challenges"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about snoop filter hit?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 69,
+    "key_phrase": "snoop filter hit"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about potentially includes secret?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 172,
+    "key_phrase": "potentially includes secret"
+  },
+  {
+    "question": "According to CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021), what is the role of 000Ah FW Authentication?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 17,
+    "key_phrase": "000Ah FW Authentication"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about Weighted Round Robin?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 166,
+    "key_phrase": "Weighted Round Robin"
+  },
+  {
+    "question": "How does Aries PCIe/CXL Smart Cable Modules (Astera Labs product brief) describe DSP Retimer portfolio?",
+    "expected_doc_id": "astera_aries_brief",
+    "expected_page_number": 3,
+    "key_phrase": "DSP Retimer portfolio"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of Exceptions1 Notes PCI?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 153,
+    "key_phrase": "Exceptions1 Notes PCI"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about layout looks very?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 136,
+    "key_phrase": "layout looks very"
+  },
+  {
+    "question": "According to Survey of Disaggregated Memory: Cross-layer Technique Insights for Next-Generation Datacenters (arXiv:2503.20275), what is the role of ReRAM MRAM PCRAM?",
+    "expected_doc_id": "arxiv_disaggregated_memory_survey",
+    "expected_page_number": 20,
+    "key_phrase": "ReRAM MRAM PCRAM"
+  },
+  {
+    "question": "According to CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021), what is the role of DAPM Deepest Allowable?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 41,
+    "key_phrase": "DAPM Deepest Allowable"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe topologies AIC form?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 22,
+    "key_phrase": "topologies AIC form"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe response indicating acceptance?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 187,
+    "key_phrase": "response indicating acceptance"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about Complex Integrated Endpoint?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 30,
+    "key_phrase": "Complex Integrated Endpoint"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of LTR wrt DDR?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 182,
+    "key_phrase": "LTR wrt DDR"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of might impede access?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 185,
+    "key_phrase": "might impede access"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe Signaling Actual initiation?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 168,
+    "key_phrase": "Signaling Actual initiation"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe WritePull Assumptions 58?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 3,
+    "key_phrase": "WritePull Assumptions 58"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe g PMREQ PMRESP?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 31,
+    "key_phrase": "g PMREQ PMRESP"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about Test DUTs 204?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 7,
+    "key_phrase": "Test DUTs 204"
+  },
+  {
+    "question": "What does Survey of Disaggregated Memory: Cross-layer Technique Insights for Next-Generation Datacenters (arXiv:2503.20275) say about indexes dLSM 143?",
+    "expected_doc_id": "arxiv_disaggregated_memory_survey",
+    "expected_page_number": 18,
+    "key_phrase": "indexes dLSM 143"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of 67 G2 D2H?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 98,
+    "key_phrase": "67 G2 D2H"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of indeed finished poisoning?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 232,
+    "key_phrase": "indeed finished poisoning"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of 01111 RspVFwdV 10110?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 53,
+    "key_phrase": "01111 RspVFwdV 10110"
+  },
+  {
+    "question": "According to CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021), what is the role of notification 00h Informational?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 58,
+    "key_phrase": "notification 00h Informational"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about sync hdr insertion?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 143,
+    "key_phrase": "sync hdr insertion"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of WrPtr WrPtr stops?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 107,
+    "key_phrase": "WrPtr WrPtr stops"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe Figure 62 H4?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 96,
+    "key_phrase": "Figure 62 H4"
+  },
+  {
+    "question": "How does PCI Express (Wikipedia) describe Mushkin Atlas 240GB?",
+    "expected_doc_id": "wikipedia_pci_express",
+    "expected_page_number": 2,
+    "key_phrase": "Mushkin Atlas 240GB"
+  },
+  {
+    "question": "According to CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021), what is the role of FW Authentication Verification?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 21,
+    "key_phrase": "FW Authentication Verification"
+  },
+  {
+    "question": "According to PCI Express (Wikipedia), what is the role of GeForce GTX 650?",
+    "expected_doc_id": "wikipedia_pci_express",
+    "expected_page_number": 7,
+    "key_phrase": "GeForce GTX 650"
+  },
+  {
+    "question": "According to CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021), what is the role of 09h Capability identifiers?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 15,
+    "key_phrase": "09h Capability identifiers"
+  },
+  {
+    "question": "According to CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021), what is the role of 0104h PMB O?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 59,
+    "key_phrase": "0104h PMB O"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of RTN msg Parameter?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 32,
+    "key_phrase": "RTN msg Parameter"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about Register 0x54 0x18?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 160,
+    "key_phrase": "Register 0x54 0x18"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about regular operation continues?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 214,
+    "key_phrase": "regular operation continues"
+  },
+  {
+    "question": "According to Memory Disaggregation: Advances and Open Challenges (arXiv:2305.03943), what is the role of Razavi Throwhammer Rowhammer?",
+    "expected_doc_id": "arxiv_memory_disaggregation",
+    "expected_page_number": 9,
+    "key_phrase": "Razavi Throwhammer Rowhammer"
+  },
+  {
+    "question": "According to CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021), what is the role of remove blue formatting?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 9,
+    "key_phrase": "remove blue formatting"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of Pattern1 Pattern1 0xAA?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 233,
+    "key_phrase": "Pattern1 Pattern1 0xAA"
+  },
+  {
+    "question": "According to Survey of Disaggregated Memory: Cross-layer Technique Insights for Next-Generation Datacenters (arXiv:2503.20275), what is the role of RMA FMA Network?",
+    "expected_doc_id": "arxiv_disaggregated_memory_survey",
+    "expected_page_number": 13,
+    "key_phrase": "RMA FMA Network"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of happens during boot?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 16,
+    "key_phrase": "happens during boot"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about typo fixes Added?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 13,
+    "key_phrase": "typo fixes Added"
+  },
+  {
+    "question": "How does Survey of Disaggregated Memory: Cross-layer Technique Insights for Next-Generation Datacenters (arXiv:2503.20275) describe embraces skewed popularity?",
+    "expected_doc_id": "arxiv_disaggregated_memory_survey",
+    "expected_page_number": 26,
+    "key_phrase": "embraces skewed popularity"
+  },
+  {
+    "question": "How does CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021) describe asserted Attention Button?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 57,
+    "key_phrase": "asserted Attention Button"
+  },
+  {
+    "question": "What does CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021) say about variably sized outputs?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 49,
+    "key_phrase": "variably sized outputs"
+  },
+  {
+    "question": "What does Next-Gen Computing Systems with Compute Express Link: a Comprehensive Survey (arXiv:2412.20249) say about allocator Memstrata employs?",
+    "expected_doc_id": "arxiv_cxl_survey",
+    "expected_page_number": 5,
+    "key_phrase": "allocator Memstrata employs"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of logic streams Additionally?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 19,
+    "key_phrase": "logic streams Additionally"
+  },
+  {
+    "question": "What does CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021) say about variably sized elements?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 50,
+    "key_phrase": "variably sized elements"
+  },
+  {
+    "question": "According to Next-Gen Computing Systems with Compute Express Link: a Comprehensive Survey (arXiv:2412.20249), what is the role of Technologie und Web?",
+    "expected_doc_id": "arxiv_cxl_survey",
+    "expected_page_number": 15,
+    "key_phrase": "Technologie und Web"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe differentiation RCiEP sourced?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 197,
+    "key_phrase": "differentiation RCiEP sourced"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of 54 G2 H2D?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 92,
+    "key_phrase": "54 G2 H2D"
+  },
+  {
+    "question": "How does CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021) describe terminated 0b0101 Truncated?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 14,
+    "key_phrase": "terminated 0b0101 Truncated"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about exception to rule?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 188,
+    "key_phrase": "exception to rule"
+  },
+  {
+    "question": "According to CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021), what is the role of VariesB7h Free NSlot?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 29,
+    "key_phrase": "VariesB7h Free NSlot"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of 128b format G0?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 100,
+    "key_phrase": "128b format G0"
+  },
+  {
+    "question": "What does CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021) say about First Release Errata?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 5,
+    "key_phrase": "First Release Errata"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about R1 R2 CONFIG?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 225,
+    "key_phrase": "R1 R2 CONFIG"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe intermediate stage between?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 78,
+    "key_phrase": "intermediate stage between"
+  },
+  {
+    "question": "How does CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021) describe LogPHY F23 Modifications?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 44,
+    "key_phrase": "LogPHY F23 Modifications"
+  },
+  {
+    "question": "What does Next-Gen Computing Systems with Compute Express Link: a Comprehensive Survey (arXiv:2412.20249) say about RPCool seamlessly integrates?",
+    "expected_doc_id": "arxiv_cxl_survey",
+    "expected_page_number": 10,
+    "key_phrase": "RPCool seamlessly integrates"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe completed entirely within?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 75,
+    "key_phrase": "completed entirely within"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about 0xA NUM PHY?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 111,
+    "key_phrase": "0xA NUM PHY"
+  },
+  {
+    "question": "What does CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021) say about Bound LD 0xFF?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 52,
+    "key_phrase": "Bound LD 0xFF"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of Modifed TS1 TS2?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 11,
+    "key_phrase": "Modifed TS1 TS2"
+  },
+  {
+    "question": "What does Survey of Disaggregated Memory: Cross-layer Technique Insights for Next-Generation Datacenters (arXiv:2503.20275) say about Shanghai Jiao Tong?",
+    "expected_doc_id": "arxiv_disaggregated_memory_survey",
+    "expected_page_number": 1,
+    "key_phrase": "Shanghai Jiao Tong"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe RspIFwdM aka HITM?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 54,
+    "key_phrase": "RspIFwdM aka HITM"
+  },
+  {
+    "question": "How does CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021) describe Notification Opcode 0106h?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 61,
+    "key_phrase": "Notification Opcode 0106h"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of initial conditions assumed?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 204,
+    "key_phrase": "initial conditions assumed"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about W1 masking RSVD?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 224,
+    "key_phrase": "W1 masking RSVD"
+  },
+  {
+    "question": "According to Survey of Disaggregated Memory: Cross-layer Technique Insights for Next-Generation Datacenters (arXiv:2503.20275), what is the role of offloadable parity calculations?",
+    "expected_doc_id": "arxiv_disaggregated_memory_survey",
+    "expected_page_number": 21,
+    "key_phrase": "offloadable parity calculations"
+  },
+  {
+    "question": "According to Survey of Disaggregated Memory: Cross-layer Technique Insights for Next-Generation Datacenters (arXiv:2503.20275), what is the role of demands LPDDR DRAMs?",
+    "expected_doc_id": "arxiv_disaggregated_memory_survey",
+    "expected_page_number": 8,
+    "key_phrase": "demands LPDDR DRAMs"
+  },
+  {
+    "question": "How does CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021) describe Truncated MAC TMAC?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 66,
+    "key_phrase": "Truncated MAC TMAC"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe miscellaneous requests fall?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 43,
+    "key_phrase": "miscellaneous requests fall"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about RWO CONFIG LOCK?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 148,
+    "key_phrase": "RWO CONFIG LOCK"
+  },
+  {
+    "question": "According to Survey of Disaggregated Memory: Cross-layer Technique Insights for Next-Generation Datacenters (arXiv:2503.20275), what is the role of embodied artificial intelligence?",
+    "expected_doc_id": "arxiv_disaggregated_memory_survey",
+    "expected_page_number": 29,
+    "key_phrase": "embodied artificial intelligence"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of clock tolerance compensation?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 130,
+    "key_phrase": "clock tolerance compensation"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe H2 G2 011?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 85,
+    "key_phrase": "H2 G2 011"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe relative arbitration weightages?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 128,
+    "key_phrase": "relative arbitration weightages"
+  },
+  {
+    "question": "What does CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021) say about Action StartInitiate FW?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 20,
+    "key_phrase": "Action StartInitiate FW"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of b01 KiloBytes KB?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 241,
+    "key_phrase": "b01 KiloBytes KB"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe prevent aliased decoding?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 109,
+    "key_phrase": "prevent aliased decoding"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe synchronization handshake completes?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 213,
+    "key_phrase": "synchronization handshake completes"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about upper 4K hosts?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 167,
+    "key_phrase": "upper 4K hosts"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about 183 107 PkgC?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 10,
+    "key_phrase": "183 107 PkgC"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe Uncorrected Recoverable UC?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 196,
+    "key_phrase": "Uncorrected Recoverable UC"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe Red flow arrows?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 68,
+    "key_phrase": "Red flow arrows"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe Nomenclature Guidelines 196?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 12,
+    "key_phrase": "Nomenclature Guidelines 196"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe AlgorithmConfiguration WriteSemanticsCache 0x7?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 234,
+    "key_phrase": "AlgorithmConfiguration WriteSemanticsCache 0x7"
+  },
+  {
+    "question": "According to CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021), what is the role of Bitmask Bitmask defining?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 46,
+    "key_phrase": "Bitmask Bitmask defining"
+  },
+  {
+    "question": "What does CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021) say about older event record?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 19,
+    "key_phrase": "older event record"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about whose datasets exceed?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 249,
+    "key_phrase": "whose datasets exceed"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about 5 Conceptual Diagram?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 20,
+    "key_phrase": "5 Conceptual Diagram"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about Certain unpredictable events?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 113,
+    "key_phrase": "Certain unpredictable events"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about powerdown 0x21 D3cold?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 33,
+    "key_phrase": "powerdown 0x21 D3cold"
+  },
+  {
+    "question": "What does PCI Express (Wikipedia) say about AMILO GraphicBooster enclosure?",
+    "expected_doc_id": "wikipedia_pci_express",
+    "expected_page_number": 8,
+    "key_phrase": "AMILO GraphicBooster enclosure"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of G5 M2S RwD?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 93,
+    "key_phrase": "G5 M2S RwD"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe Temporary back pressure?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 38,
+    "key_phrase": "Temporary back pressure"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about 69 G4 S2M?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 99,
+    "key_phrase": "69 G4 S2M"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of main band sideband?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 200,
+    "key_phrase": "main band sideband"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about 52 G0 M2S?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 91,
+    "key_phrase": "52 G0 M2S"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of NonTemporal Definition 1b0?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 39,
+    "key_phrase": "NonTemporal Definition 1b0"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe contiguous 8K region?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 151,
+    "key_phrase": "contiguous 8K region"
+  },
+  {
+    "question": "According to CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021), what is the role of Logs Opcode 0400h?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 55,
+    "key_phrase": "Logs Opcode 0400h"
+  },
+  {
+    "question": "How does Survey of Disaggregated Memory: Cross-layer Technique Insights for Next-Generation Datacenters (arXiv:2503.20275) describe Atsushi Koshiba Felix?",
+    "expected_doc_id": "arxiv_disaggregated_memory_survey",
+    "expected_page_number": 32,
+    "key_phrase": "Atsushi Koshiba Felix"
+  },
+  {
+    "question": "What does PCI Express (Wikipedia) say about 1120 pp 1056?",
+    "expected_doc_id": "wikipedia_pci_express",
+    "expected_page_number": 10,
+    "key_phrase": "1120 pp 1056"
+  },
+  {
+    "question": "What does CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021) say about DOE referencing incorrect?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 36,
+    "key_phrase": "DOE referencing incorrect"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of AlgorithmConfiguration WriteSemanticsCache 0x2?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 235,
+    "key_phrase": "AlgorithmConfiguration WriteSemanticsCache 0x2"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe Intel 3D XPoint?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 149,
+    "key_phrase": "Intel 3D XPoint"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe S2M NDR Cmp?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 77,
+    "key_phrase": "S2M NDR Cmp"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe 1110 0001 1110?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 132,
+    "key_phrase": "1110 0001 1110"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of MemRdData NA NA?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 64,
+    "key_phrase": "MemRdData NA NA"
+  },
+  {
+    "question": "According to CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021), what is the role of never exceed 244?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 48,
+    "key_phrase": "never exceed 244"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about 040h to 0FFh?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 154,
+    "key_phrase": "040h to 0FFh"
+  },
+  {
+    "question": "According to CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021), what is the role of 182 Get Alert?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 24,
+    "key_phrase": "182 Get Alert"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about LinkLayerErrorInjection FlowControlInjection 0x2?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 237,
+    "key_phrase": "LinkLayerErrorInjection FlowControlInjection 0x2"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about confirm correct receipt?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 106,
+    "key_phrase": "confirm correct receipt"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about Disable LinkError LinkReset?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 120,
+    "key_phrase": "Disable LinkError LinkReset"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about Endpoint MMIO BARs?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 175,
+    "key_phrase": "Endpoint MMIO BARs"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of 47 H2 H2D?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 88,
+    "key_phrase": "47 H2 H2D"
+  },
+  {
+    "question": "How does Next-Gen Computing Systems with Compute Express Link: a Comprehensive Survey (arXiv:2412.20249) describe several important conclusions?",
+    "expected_doc_id": "arxiv_cxl_survey",
+    "expected_page_number": 3,
+    "key_phrase": "several important conclusions"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of draining Once both?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 42,
+    "key_phrase": "draining Once both"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of 0110 0111 Others?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 62,
+    "key_phrase": "0110 0111 Others"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of Credits Running snapshot?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 165,
+    "key_phrase": "Credits Running snapshot"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about aware Retimer1 advertises?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 141,
+    "key_phrase": "aware Retimer1 advertises"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of follow configurations outlined?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 209,
+    "key_phrase": "follow configurations outlined"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about help visi bility?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 245,
+    "key_phrase": "help visi bility"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe 040h to 0FFh?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 152,
+    "key_phrase": "040h to 0FFh"
+  },
+  {
+    "question": "What does Leo CXL Smart Memory Controllers (Astera Labs product brief) say about 4x DDR5 RDIMMs?",
+    "expected_doc_id": "astera_leo_brief",
+    "expected_page_number": 1,
+    "key_phrase": "4x DDR5 RDIMMs"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of FW SW development?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 199,
+    "key_phrase": "FW SW development"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe DLLPs encapsulated within?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 133,
+    "key_phrase": "DLLPs encapsulated within"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe continue normal operation?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 124,
+    "key_phrase": "continue normal operation"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe indeed finished CRC?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 231,
+    "key_phrase": "indeed finished CRC"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of DUT Offset 0x1C?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 229,
+    "key_phrase": "DUT Offset 0x1C"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe decides test run?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 210,
+    "key_phrase": "decides test run"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about side independently requests?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 192,
+    "key_phrase": "side independently requests"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of exit involves bringing?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 190,
+    "key_phrase": "exit involves bringing"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about x8 Protocol Interleaving?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 135,
+    "key_phrase": "x8 Protocol Interleaving"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about Upstream Port RCRB?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 155,
+    "key_phrase": "Upstream Port RCRB"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of coherency perspective giving?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 44,
+    "key_phrase": "coherency perspective giving"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of provides dynamic muxing?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 117,
+    "key_phrase": "provides dynamic muxing"
+  },
+  {
+    "question": "How does PCI Express (Wikipedia) describe decrease signal losses?",
+    "expected_doc_id": "wikipedia_pci_express",
+    "expected_page_number": 4,
+    "key_phrase": "decrease signal losses"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of seeing ideal latency?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 26,
+    "key_phrase": "seeing ideal latency"
+  },
+  {
+    "question": "What does Next-Gen Computing Systems with Compute Express Link: a Comprehensive Survey (arXiv:2412.20249) say about mail chenc68 zju?",
+    "expected_doc_id": "arxiv_cxl_survey",
+    "expected_page_number": 1,
+    "key_phrase": "mail chenc68 zju"
+  },
+  {
+    "question": "According to CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021), what is the role of HID of ACPI0016?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 12,
+    "key_phrase": "HID of ACPI0016"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about predictability Little interaction?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 247,
+    "key_phrase": "predictability Little interaction"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about copies replication pinning?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 248,
+    "key_phrase": "copies replication pinning"
+  },
+  {
+    "question": "What does Survey of Disaggregated Memory: Cross-layer Technique Insights for Next-Generation Datacenters (arXiv:2503.20275) say about offer concise APIs?",
+    "expected_doc_id": "arxiv_disaggregated_memory_survey",
+    "expected_page_number": 24,
+    "key_phrase": "offer concise APIs"
+  },
+  {
+    "question": "How does Survey of Disaggregated Memory: Cross-layer Technique Insights for Next-Generation Datacenters (arXiv:2503.20275) describe Griffin introduces programmer?",
+    "expected_doc_id": "arxiv_disaggregated_memory_survey",
+    "expected_page_number": 14,
+    "key_phrase": "Griffin introduces programmer"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about schedules SKP OS?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 220,
+    "key_phrase": "schedules SKP OS"
+  },
+  {
+    "question": "According to Next-Gen Computing Systems with Compute Express Link: a Comprehensive Survey (arXiv:2412.20249), what is the role of abs 2312 04789?",
+    "expected_doc_id": "arxiv_cxl_survey",
+    "expected_page_number": 14,
+    "key_phrase": "abs 2312 04789"
+  },
+  {
+    "question": "According to CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021), what is the role of 1196 F27 FM?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 56,
+    "key_phrase": "1196 F27 FM"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe XXX RdAny XXXXX?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 52,
+    "key_phrase": "XXX RdAny XXXXX"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about Relaxed Global Observation?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 59,
+    "key_phrase": "Relaxed Global Observation"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about sync exchange completes?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 211,
+    "key_phrase": "sync exchange completes"
+  },
+  {
+    "question": "According to CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021), what is the role of 31 2311 RsvdP?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 16,
+    "key_phrase": "31 2311 RsvdP"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of LL Crd Stall?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 164,
+    "key_phrase": "LL Crd Stall"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about Prep ResetType S3?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 228,
+    "key_phrase": "Prep ResetType S3"
+  },
+  {
+    "question": "How does CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021) describe F30 Incorrect passing?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 63,
+    "key_phrase": "F30 Incorrect passing"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about slot formats please?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 82,
+    "key_phrase": "slot formats please"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about io TLP Ending?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 137,
+    "key_phrase": "io TLP Ending"
+  },
+  {
+    "question": "According to Next-Gen Computing Systems with Compute Express Link: a Comprehensive Survey (arXiv:2412.20249), what is the role of accordingly Hyungkyu Ham?",
+    "expected_doc_id": "arxiv_cxl_survey",
+    "expected_page_number": 7,
+    "key_phrase": "accordingly Hyungkyu Ham"
+  },
+  {
+    "question": "How does Memory Disaggregation: Advances and Open Challenges (arXiv:2305.03943) describe CPUCache CPUCache CPUCache?",
+    "expected_doc_id": "arxiv_memory_disaggregation",
+    "expected_page_number": 2,
+    "key_phrase": "CPUCache CPUCache CPUCache"
+  },
+  {
+    "question": "What does CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021) say about QoS Allocation Fraction?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 54,
+    "key_phrase": "QoS Allocation Fraction"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about section entitled Encoding?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 79,
+    "key_phrase": "section entitled Encoding"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe Init 1100 1000?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 103,
+    "key_phrase": "Init 1100 1000"
+  },
+  {
+    "question": "According to CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021), what is the role of multiples inof 256?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 23,
+    "key_phrase": "multiples inof 256"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about LinkTM CXLTM Specification?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 1,
+    "key_phrase": "LinkTM CXLTM Specification"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of UIE CIE Figure?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 195,
+    "key_phrase": "UIE CIE Figure"
+  },
+  {
+    "question": "How does Compute Express Link (CXL) 1.1 Specification describe budgets mentioned here?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 203,
+    "key_phrase": "budgets mentioned here"
+  },
+  {
+    "question": "How does CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021) describe substitution Invalid ParameterInput?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 18,
+    "key_phrase": "substitution Invalid ParameterInput"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of regular SKP OSs?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 144,
+    "key_phrase": "regular SKP OSs"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of Multiplexing Demultiplexing 128?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 5,
+    "key_phrase": "Multiplexing Demultiplexing 128"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about implicitly give coverage?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 208,
+    "key_phrase": "implicitly give coverage"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about 11011b Since Deferrable?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 36,
+    "key_phrase": "11011b Since Deferrable"
+  },
+  {
+    "question": "What does Next-Gen Computing Systems with Compute Express Link: a Comprehensive Survey (arXiv:2412.20249) say about ugd 0c1418 a8713008916044ae9604405d10a7773b?",
+    "expected_doc_id": "arxiv_cxl_survey",
+    "expected_page_number": 13,
+    "key_phrase": "ugd 0c1418 a8713008916044ae9604405d10a7773b"
+  },
+  {
+    "question": "What does Compute Express Link (CXL) 1.1 Specification say about actions ALMP handshakes?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 122,
+    "key_phrase": "actions ALMP handshakes"
+  },
+  {
+    "question": "How does CXL 2.0 Errata and Clarifications to the Compute Express Link Specification (May 2021) describe 512 MB 2h?",
+    "expected_doc_id": "cxl20_errata",
+    "expected_page_number": 53,
+    "key_phrase": "512 MB 2h"
+  },
+  {
+    "question": "According to Compute Express Link (CXL) 1.1 Specification, what is the role of Always LEN 0x38?",
+    "expected_doc_id": "cxl11_spec",
+    "expected_page_number": 223,
+    "key_phrase": "Always LEN 0x38"
+  }
+]

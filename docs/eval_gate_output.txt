@@ -1,0 +1,6 @@
+{
+  "n_questions": 300,
+  "citation_accuracy": 0.7433,
+  "pass_threshold": 0.7,
+  "gate_passed": true
+}

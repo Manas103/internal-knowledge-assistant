@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+.venv/
+*.egg-info/
+node_modules/
+frontend/dist/
+*.db
+
+# Real downloaded PCIe/CXL sources and the chunked passage corpus built from them.
+# Regenerate with: python scripts/fetch_corpus.py && python -m assistant.ingest
+# (data/raw/ holds the real files fetch_corpus.py downloads from corpus_manifest.json's
+# public URLs; data/corpus.jsonl is the chunked passages ingest.py builds from them. The
+# CXL 1.1 Specification and its 2.0 errata are copyrighted by the CXL Consortium, not
+# public domain, so this project never commits their extracted text.)
+data/raw/
+data/corpus.jsonl
