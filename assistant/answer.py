@@ -20,6 +20,7 @@ class Draft:
     cited_doc_id: str
     cited_page_number: int
     confidence: float
+    source_kind: str = "passage"  # "passage" (this module) or "row" (assistant.structured_store)
 
 
 def answer_question(question: str, index: BM25Index, *, top_k: int = 3) -> Draft:

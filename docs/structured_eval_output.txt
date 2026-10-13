@@ -1,0 +1,6 @@
+{
+  "n_questions": 18,
+  "n_catalog_rows": 10,
+  "correctly_cited_row": 18,
+  "pct_correct": 100.0
+}

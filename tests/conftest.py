@@ -20,3 +20,20 @@ FIXTURE_PASSAGES = [
 @pytest.fixture
 def fixture_passages():
     return list(FIXTURE_PASSAGES)
+
+
+@pytest.fixture
+def pg_conn():
+    """Real pgvector Postgres connection for assistant.vector_store and
+    assistant.hybrid_answer tests; skips cleanly if unreachable, matching
+    this portfolio's convention for a database not installed as an
+    always-on service."""
+    from assistant import vector_store
+
+    if not vector_store.is_available():
+        pytest.skip("pgvector Postgres unreachable")
+    conn = vector_store.get_connection()
+    vector_store.init_schema(conn)
+    vector_store.reset(conn)
+    yield conn
+    conn.close()

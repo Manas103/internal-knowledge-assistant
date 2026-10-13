@@ -1,9 +1,9 @@
 {
   "n_sessions": 1000,
   "confidence_threshold": 4.81,
-  "cited_supporting_passage": 748,
-  "pct_cited_supporting_passage": 74.8,
-  "sent_unedited": 614,
-  "pct_sent_unedited": 61.4,
-  "pct_cited_correctly_among_unedited": 79.8
+  "cited_supporting_passage": 757,
+  "pct_cited_supporting_passage": 75.7,
+  "sent_unedited": 611,
+  "pct_sent_unedited": 61.1,
+  "pct_cited_correctly_among_unedited": 80.52
 }

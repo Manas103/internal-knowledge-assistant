@@ -1,0 +1,9 @@
+{
+  "n_sessions": 1000,
+  "confidence_threshold": 0.003165,
+  "cited_supporting_passage": 651,
+  "pct_cited_supporting_passage": 65.1,
+  "sent_unedited": 621,
+  "pct_sent_unedited": 62.1,
+  "pct_cited_correctly_among_unedited": 60.06
+}

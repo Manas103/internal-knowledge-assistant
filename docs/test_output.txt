@@ -1,8 +1,63 @@
-.........................                                                [100%]
-============================== warnings summary ===============================
-venv\Lib\site-packages\fastapi\testclient.py:1
-  C:\Users\Manas\Downloads\Auto Job Applier\Total Job Application process flow\projects\internal-knowledge-assistant\venv\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-9.1.1, pluggy-1.6.0 -- /mnt/c/Users/Manas/Downloads/Auto Job Applier/Total Job Application process flow/projects/internal-knowledge-assistant/.venv_wsl/bin/python
+cachedir: .pytest_cache
+rootdir: /mnt/c/Users/Manas/Downloads/Auto Job Applier/Total Job Application process flow
+configfile: pytest.ini
+plugins: anyio-4.15.1
+collecting ... collected 47 items
+
+tests/test_answer.py::test_answer_cites_the_top_retrieved_passage PASSED [  2%]
+tests/test_answer.py::test_answer_confidence_is_higher_for_a_specific_than_a_generic_query PASSED [  4%]
+tests/test_answer.py::test_answer_handles_empty_corpus_gracefully PASSED [  6%]
+tests/test_app.py::test_ask_endpoint_returns_a_citation PASSED           [  8%]
+tests/test_app.py::test_health_endpoint_reports_passage_count PASSED     [ 10%]
+tests/test_db.py::test_load_passages_into_sqlite PASSED                  [ 12%]
+tests/test_dense_embed.py::test_embed_text_is_unit_normalized PASSED     [ 14%]
+tests/test_dense_embed.py::test_embed_text_empty_string_is_zero_vector PASSED [ 17%]
+tests/test_dense_embed.py::test_embed_text_is_deterministic_across_calls PASSED [ 19%]
+tests/test_dense_embed.py::test_shared_rare_term_gives_smaller_angle_than_unrelated_text PASSED [ 21%]
+tests/test_eval_gate_regressions.py::test_baseline_gate_passes PASSED    [ 23%]
+tests/test_eval_gate_regressions.py::test_regression_k1_zeroed_caught PASSED [ 25%]
+tests/test_eval_gate_regressions.py::test_regression_idf_inverted_caught PASSED [ 27%]
+tests/test_eval_gate_regressions.py::test_regression_page_numbers_off_by_one_caught PASSED [ 29%]
+tests/test_eval_gate_regressions.py::test_regression_cites_runner_up_caught PASSED [ 31%]
+tests/test_eval_gate_regressions.py::test_four_of_four_regressions_caught PASSED [ 34%]
+tests/test_fusion.py::test_top_bm25_and_top_dense_agreement_wins PASSED  [ 36%]
+tests/test_fusion.py::test_result_only_in_one_list_still_scored PASSED   [ 38%]
+tests/test_fusion.py::test_a_result_ranked_second_in_both_lists_beats_one_ranked_first_in_only_one PASSED [ 40%]
+tests/test_fusion.py::test_empty_inputs_give_empty_output PASSED         [ 42%]
+tests/test_hybrid_answer.py::test_structured_question_short_circuits_before_any_retrieval PASSED [ 44%]
+tests/test_hybrid_answer.py::test_passage_question_fuses_bm25_and_dense PASSED [ 46%]
+tests/test_hybrid_answer.py::test_measure_hybrid_accuracy_on_exact_grounded_questions PASSED [ 48%]
+tests/test_hybrid_answer.py::test_real_catalog_loads_for_hybrid_use PASSED [ 51%]
+tests/test_hybrid_eval_gate.py::test_unweighted_fusion_measurably_hurts_accuracy_on_this_corpus PASSED [ 53%]
+tests/test_hybrid_eval_gate.py::test_structured_eval_is_exhaustively_correct PASSED [ 55%]
+tests/test_ingest.py::test_clean_wikitext_strips_templates_links_and_refs PASSED [ 57%]
+tests/test_ingest.py::test_clean_wikitext_strips_tables_and_comments PASSED [ 59%]
+tests/test_ingest.py::test_extract_wiki_pages_chunks_into_fixed_word_count_pages PASSED [ 61%]
+tests/test_keyphrase.py::test_keyphrase_is_quoted_verbatim_from_the_passage PASSED [ 63%]
+tests/test_keyphrase.py::test_keyphrase_picks_a_distinctive_term_not_a_stopword_run PASSED [ 65%]
+tests/test_qagen.py::test_eval_set_ground_truth_citation_is_a_real_passage PASSED [ 68%]
+tests/test_qagen.py::test_eval_set_samples_without_replacement_when_enough_passages PASSED [ 70%]
+tests/test_qagen.py::test_session_questions_sample_with_replacement PASSED [ 72%]
+tests/test_qagen.py::test_generation_is_deterministic_for_a_fixed_seed PASSED [ 74%]
+tests/test_retrieval.py::test_tokenize_lowercases_and_drops_stopwords PASSED [ 76%]
+tests/test_retrieval.py::test_search_ranks_the_lexically_matching_passage_first PASSED [ 78%]
+tests/test_retrieval.py::test_search_distinguishes_flow_control_from_switch_fanout PASSED [ 80%]
+tests/test_retrieval.py::test_idf_favors_rare_terms_over_common_ones PASSED [ 82%]
+tests/test_structured_store.py::test_load_catalog_has_ten_rows_matching_the_manifest PASSED [ 85%]
+tests/test_structured_store.py::test_page_count_question_answered_from_the_row PASSED [ 87%]
+tests/test_structured_store.py::test_wikipedia_rows_have_no_page_count_question PASSED [ 89%]
+tests/test_structured_store.py::test_format_question_answered_from_the_row PASSED [ 91%]
+tests/test_structured_store.py::test_unmatched_question_returns_none PASSED [ 93%]
+tests/test_structured_store.py::test_generate_structured_questions_covers_every_row_and_is_deterministic PASSED [ 95%]
+tests/test_vector_store.py::test_upsert_and_dense_search_real_pgvector PASSED [ 97%]
+tests/test_vector_store.py::test_dense_search_is_a_real_vector_column_not_a_placeholder PASSED [100%]
+
+=============================== warnings summary ===============================
+.venv_wsl/lib/python3.10/site-packages/fastapi/testclient.py:1
+  /mnt/c/Users/Manas/Downloads/Auto Job Applier/Total Job Application process flow/projects/internal-knowledge-assistant/.venv_wsl/lib/python3.10/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
     from starlette.testclient import TestClient as TestClient  # noqa
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-25 passed, 1 warning in 3.30s
+======================== 47 passed, 1 warning in 6.24s =========================

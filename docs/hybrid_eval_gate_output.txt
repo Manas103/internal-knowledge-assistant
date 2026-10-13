@@ -1,0 +1,7 @@
+{
+  "n_questions": 300,
+  "n_passages_embedded": 396,
+  "citation_accuracy": 0.6467,
+  "pass_threshold": 0.7,
+  "gate_passed": false
+}
