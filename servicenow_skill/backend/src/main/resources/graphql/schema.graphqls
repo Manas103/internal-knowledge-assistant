@@ -1,0 +1,27 @@
+type Draft {
+    id: ID!
+    requestId: String!
+    requestText: String!
+    citedArticleId: String
+    confidence: Float!
+    grounded: Boolean!
+    status: String!
+    reviewerDecision: String
+}
+
+type GateStats {
+    totalRequests: Int!
+    publishedCount: Int!
+    withheldCount: Int!
+    citationAccuracy: Float!
+}
+
+type Query {
+    pendingReviews: [Draft!]!
+    allDrafts: [Draft!]!
+    stats: GateStats!
+}
+
+type Mutation {
+    resolveReview(id: ID!, decision: String!): Draft!
+}

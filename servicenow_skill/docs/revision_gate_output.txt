@@ -1,0 +1,14 @@
+=== Deploy gate: revision history ===
+revision                                      acc    blocked    ungrounded_held              published resolving
+rev1-baseline                              1.0000      false            148/148                    457       457
+rev2-add-stemming                          1.0000      false            148/148                    457       457
+rev3-keep-stopwords                        0.4004       true            148/148                    457       457
+rev4-add-bigrams                           1.0000      false            148/148                    457       457
+rev5-raise-k1                              1.0000      false            148/148                    457       457
+rev6-strip-scenario-tokens-as-noise        0.0284       true            148/148                    457       457
+rev7-overtighten-min-token-length          0.0088       true            148/148                    160       160
+rev8-drop-title-boost                      1.0000      false            148/148                    457       457
+rev9-combined-best                         1.0000      false            148/148                    457       457
+
+total_revisions=9
+total_blocked=3

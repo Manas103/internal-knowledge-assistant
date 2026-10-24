@@ -7,6 +7,9 @@ venv/
 *.egg-info/
 node_modules/
 frontend/dist/
+servicenow_skill/frontend/dist/
+servicenow_skill/frontend/tsconfig.tsbuildinfo
+target/
 *.db
 
 # Real downloaded PCIe/CXL sources and the chunked passage corpus built from them.

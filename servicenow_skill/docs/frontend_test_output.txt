@@ -1,0 +1,16 @@
+$ npm run test (servicenow_skill/frontend, Vite 6, Vitest 2.1.9, WSL2 Ubuntu 22.04)
+
+ RUN  v2.1.9
+
+ ✓ src/components/ReviewQueue.test.tsx (2 tests) 65ms
+
+ Test Files  1 passed (1)
+      Tests  2 passed (2)
+
+$ npm run build
+> tsc -b && vite build
+vite v6.4.5 building for production...
+✓ 28 modules transformed.
+dist/index.html                  0.27 kB │ gzip:  0.21 kB
+dist/assets/index-CWWBb4x5.js  145.94 kB │ gzip: 47.05 kB
+✓ built in 545ms

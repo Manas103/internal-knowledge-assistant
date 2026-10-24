@@ -1,0 +1,27 @@
+$ mvn test (servicenow_skill/backend, Spring Boot 3.3.4, Java 21, WSL2 Ubuntu 22.04)
+
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0
+
+Covers:
+- CorpusGeneratorTest (3): 1200 unique articles, deterministic regeneration, 30 distinct platform/site
+  scenario pairs per topic.
+- RequestGeneratorTest (3): 605 total requests (457 grounded, 148 ungrounded), zero token overlap
+  between the out-of-corpus vocabulary and the knowledge base under the deployed tokenizer, grounded
+  requests carry their source article's scenario tokens.
+- BM25RetrieverTest (2): indexed BM25 scoring diffed exactly against a brute-force re-derivation of
+  the same formula over a sampled (request, article) grid; topMatch always returns the brute-force
+  argmax.
+- DraftGeneratorTest (2): every published draft's citation resolves to a real article id; an
+  IllegalStateException is raised if a draft would otherwise cite an id that cannot resolve.
+- EvalGateTest (2): the deployed baseline withholds all 148/148 ungrounded requests and cites the
+  correct article for 457/457 published grounded drafts (citation accuracy 1.0).
+- RevisionGateTest (2): the 9-revision deploy history blocks exactly 3 revisions for measured
+  citation-accuracy regression; the originally deployed revision is never itself blocked; every
+  blocked revision measured strictly below the baseline it was checked against.
+- DraftControllerTest (3): GraphQL pendingReviews/stats/resolveReview queries and mutation against a
+  Spring GraphQL in-process tester and an H2-backed Spring context.
+- GateReportTest (1): prints the eval gate and deploy gate numbers captured verbatim into
+  docs/eval_gate_output.txt and docs/revision_gate_output.txt.
+
+BUILD SUCCESS
+Total time: 21.230 s

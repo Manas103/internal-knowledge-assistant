@@ -1,0 +1,12 @@
+=== Frozen eval set ===
+corpus_size=1200
+total_requests=605
+grounded_truth=457
+ungrounded_truth=148
+
+=== Deployed baseline (revision 1) ===
+published_count=457
+published_with_resolving_citation=457
+published_with_correct_citation=457
+citation_accuracy=1.0
+ungrounded_withheld=148/148
