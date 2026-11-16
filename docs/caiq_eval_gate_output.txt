@@ -1,0 +1,6 @@
+frozen eval set size: 300
+controls in corpus: 207; controls with committed evidence: 150
+expected-withheld items: 102
+citation accuracy: 1.0000
+pass threshold: 0.7
+PASS

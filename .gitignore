@@ -20,3 +20,15 @@ target/
 # public domain, so this project never commits their extracted text.)
 data/raw/
 data/corpus.jsonl
+
+# Real downloaded CSA CCM/CAIQ bundle and the question/control text extracted from it.
+# Regenerate with: python -m scripts.fetch_caiq_corpus
+# (caiq/data/raw/ holds the real downloaded bundle; caiq_questions.json/ccm_controls.json
+# hold the real compiled question and control-specification text. CSA licenses the CCM
+# free for internal use only, commercial use requires a license, so this project commits
+# only caiq/manifest.json's taxonomy, caiq/data/evidence_library.json (this project's own
+# synthetic evidence register, not CSA's text) and caiq/frozen_eval_set.json (ids and
+# expected outcomes only, no question text).
+caiq/data/raw/
+caiq/data/caiq_questions.json
+caiq/data/ccm_controls.json

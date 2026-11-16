@@ -1,0 +1,44 @@
+{
+  "_comment": "Real public source this questionnaire module is built from. caiq/fetch_bundle.py downloads exactly this URL into caiq/data/raw/ (gitignored) and verifies its sha256 against this manifest before caiq/extract.py parses the two workbooks inside it into caiq/data/caiq_questions.json and caiq/data/ccm_controls.json (both gitignored, rebuilt, never committed). The CSA Cloud Controls Matrix is free to download without an account but is licensed by the Cloud Security Alliance for internal use, with commercial use requiring a license; this repo therefore commits only this manifest, the question/control id taxonomy below, and measured counts in docs/, never the full compiled question or control-specification text.",
+  "source": {
+    "title": "Cloud Controls Matrix and CAIQ v4.1 Bundle",
+    "publisher": "Cloud Security Alliance",
+    "url": "https://cloudsecurityalliance.org/download/artifacts/cloud-controls-matrix-v4-1",
+    "landing_page": "https://cloudsecurityalliance.org/artifacts/cloud-controls-matrix-v4-1",
+    "downloaded_without_account": true,
+    "bundle_filename": "CCM+CAIQv4.1 Bundle.zip",
+    "bundle_sha256": "ed84ff9122e526a82284a2a4724b1e5123885c36d1bd186aef797e08d596e122",
+    "bundle_bytes": 25158000,
+    "files_used": {
+      "caiq_v403_questions": "CAIQv4.0.3 - CAIQv4.1 Change Analysis.xlsx (column A/B: the CAIQv4.0.3 question id and question text, before the v4.1 edits in columns C-F)",
+      "ccm_controls": "CCMv4.1.1-generated_at_2026_10_02.xlsx, sheet \"CCM\" (Control Domain, Control Title, Control ID, Control Specification)"
+    }
+  },
+  "version_note": "The resume's '261-question CSA CAIQ v4' claim names CAIQ v4.0 (261 questions, 197 control objectives, 17 domains); CSA's v4.0 bundle itself is gated behind an account, so this project sources the real v4.0.3 question text from the publicly downloadable v4.0.3-to-v4.1.0 change-analysis workbook (same 261 questions, confirmed by the per-domain counts below) and sources real control-objective text from the publicly downloadable v4.1.1 CCM workbook (207 controls). 9 of the 261 questions' control ids (IVS-01..IVS-09, renamed I&S-01..I&S-09 in v4.1) and 1 more (IAM-16, removed in v4.1) therefore have no matching control objective in this corpus and are always withheld by construction; see README Honest framing and Findings.",
+  "measured_question_count": 261,
+  "measured_control_count": 207,
+  "domains": {
+    "A&A": "Audit & Assurance",
+    "AIS": "Application & Interface Security",
+    "BCR": "Business Continuity Management and Operational Resilience",
+    "CCC": "Change Control and Configuration Management",
+    "CEK": "Cryptography, Encryption & Key Management",
+    "DCS": "Datacenter Security",
+    "DSP": "Data Security and Privacy Lifecycle Management",
+    "GRC": "Governance, Risk and Compliance",
+    "HRS": "Human Resources",
+    "IAM": "Identity & Access Management",
+    "I&S": "Infrastructure Security (named Infrastructure & Virtualization Security, IVS, in CAIQ v4.0)",
+    "IPY": "Interoperability & Portability",
+    "LOG": "Logging and Monitoring",
+    "SEF": "Security Incident Management, E-Discovery, & Cloud Forensics",
+    "STA": "Supply Chain Management, Transparency, and Accountability",
+    "TVM": "Threat & Vulnerability Management",
+    "UEM": "Universal Endpoint Management"
+  },
+  "questions_per_domain_v403": {
+    "A&A": 8, "AIS": 11, "BCR": 18, "CCC": 11, "CEK": 23, "DCS": 23, "DSP": 24,
+    "GRC": 9, "HRS": 20, "IAM": 21, "IVS": 14, "IPY": 8, "LOG": 18, "SEF": 11,
+    "STA": 15, "TVM": 12, "UEM": 15
+  }
+}
