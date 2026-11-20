@@ -32,3 +32,15 @@ data/corpus.jsonl
 caiq/data/raw/
 caiq/data/caiq_questions.json
 caiq/data/ccm_controls.json
+
+# Real downloaded Cloudflare docs/blog pages and the chunked passage corpus built
+# from them. Regenerate with: python -m comms_audit.scripts.fetch_corpus &&
+# python -m comms_audit.ingest
+# (comms_audit/data/raw/ holds the real extracted page text; comms_audit/data/corpus.jsonl
+# is the chunked passages built from it. corpus_manifest.json (urls, titles, sha256
+# checksums) is committed; the extracted text itself is not, the same precedent this
+# project uses for the copyrighted CXL/PCI-SIG PDFs, even though Cloudflare's own
+# robots.txt Content-Signal explicitly permits ai-input use of this content.)
+comms_audit/data/raw/
+comms_audit/data/corpus.jsonl
+comms_audit/worker/dist/

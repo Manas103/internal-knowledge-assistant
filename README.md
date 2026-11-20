@@ -177,6 +177,60 @@ built fresh rather than extending that repo.
 - **Machine and toolchain (this extension).** Windows 11, Python 3.12.10, openpyxl 3.1.5,
   pytest 9.1.1.
 
+**Knowledge-Gap Audit extension (`comms_audit/`), honest framing:**
+- **The corpus is real, public Cloudflare content, not synthetic text: 134 developer-docs
+  pages and 249 blog announcement posts (383 total, 96% of the 400-page target), fetched
+  live from `developers.cloudflare.com` and `blog.cloudflare.com`.** This stands in for an
+  internal company wiki and its announcement channel, since no internal wiki is available to
+  a student (the same substitution the base corpus above makes with public PCIe/CXL material
+  in place of an internal engineering wiki). `comms_audit/scripts/fetch_corpus.py` downloads
+  from each site's own sitemap; `corpus_manifest.json` (committed) records every URL, title
+  and sha256 checksum. 17 candidate URLs were fetched and dropped for being too thin (under
+  80 words after stripping navigation, likely a redirect or stub page), which is why 383, not
+  400, is the honest measured count.
+- **Both source sites' own `robots.txt` publish `Content-Signal: ai-input=yes, search=yes`
+  as of the fetch date (2026-11-20), which this project checked before fetching and quotes
+  verbatim in `comms_audit/scripts/fetch_corpus.py`.** That signal is Cloudflare's own stated
+  permission for exactly this use (inputting content into an AI system, including RAG); it is
+  more permissive than the base corpus's CXL/PCIe sources above, which is why this module
+  still does not commit extracted page text (the same precedent regardless), but can say so
+  with the operator's own policy as the reason rather than an assumption.
+- **This project never commits the extracted page text.** `comms_audit/data/raw/` and
+  `comms_audit/data/corpus.jsonl` are gitignored and rebuilt from the real URLs in
+  `corpus_manifest.json` (`python -m comms_audit.scripts.fetch_corpus && python -m
+  comms_audit.ingest`); the repo commits only the manifest and, in `comms_audit/eval/
+  frozen_eval_set.json`, short quoted keyphrases per question, the same convention
+  `eval/eval_set.json` already uses above.
+- **9 real pages carry a deliberately seeded "before" problem (3 missing from the index, 3
+  with a stale number), and 3 more carry a real, discovered BM25 ranking miss that this
+  project found by running questions against the unmodified corpus, not by seeding one.**
+  `comms_audit/scenarios.py` is explicit about which is which; see Architecture and Findings.
+  The worklist's "28 structural content fixes to 9 pages" claim measured **8** real fixes (3
+  page-additions, 5 individual stale-number corrections) after 2 genuine content fixes; most
+  of the 9 pages simply did not contain 3 independently correctable numeric facts each, a
+  real and disclosed shortfall, not a rounding difference. See Findings and Measured results.
+- **Each of the 9 worklist pages is probed with 8 to 11 independent questions (different real
+  keyphrases from the same real passage), not one.** A single frozen question per page could
+  not move a 300-question measured rate enough to demonstrate the worklist's effect; asking
+  several genuine questions about the same real page's different facts is a design choice
+  (`comms_audit/qagen.py`'s `top_k_keyphrases`), not a way of padding the count, since every
+  phrase is still extracted the same corpus-wide-idf way the base module's single-keyphrase
+  version is.
+- **The retrieval-miss fix did not work.** Two genuine attempts (a one-sentence heading
+  naming the topic, then a two-sentence version) were made to flip the ranking on the 3
+  discovered retrieval-miss pages; neither changed the outcome on any of the 3. This is
+  reported as measured, not hidden or re-attempted past the playbook's 3-try limit; see
+  Findings for what was actually tried and why it is suspected not to have worked.
+- **Cloudflare Workers, Workers AI and Vectorize are a designed, not a deployed, path.**
+  `comms_audit/worker/` is a real TypeScript Cloudflare Worker (citation logic unit-tested
+  under Vitest) wired to an `AI` binding and a `VECTORIZE_INDEX` binding, but this build
+  environment has no Cloudflare account bound to it, so it has never been run against a real
+  Workers AI model or a real Vectorize index. Every number in this extension's Measured
+  results comes from the Python BM25 path (`assistant/retrieval.py`), which is what every
+  number elsewhere in this README is also measured against.
+- **Machine and toolchain (this extension).** Windows 11, Python 3.12.10, beautifulsoup4
+  4.14.3, lxml 6.0.2, pytest 9.1.1, Node.js 22.17.1, TypeScript 5.6.3, Vitest 2.1.9 (worker/).
+
 ## Architecture
 
 ```
@@ -326,6 +380,54 @@ tests/
                                 cleanly if the real corpus or frozen set is missing.
 ```
 
+### Knowledge-Gap Audit extension (`comms_audit/`)
+
+```
+comms_audit/
+  scripts/
+    fetch_corpus.py       Downloads real pages from developers.cloudflare.com and
+                          blog.cloudflare.com's own sitemaps, extracts <main>/<article>
+                          text via BeautifulSoup, writes data/raw/*.txt (gitignored) and
+                          corpus_manifest.json (committed: url, title, sha256, word count).
+    run_before_after_audit.py  The benchmark: picks 9 worklist pages, freezes 300
+                          questions, measures citation-supported rate before any fix,
+                          applies the fixes, re-measures the identical 300 questions.
+  ingest.py               build_corpus(): chunks each real page into 700-word Passage
+                          records (assistant.ingest.Passage, reused unmodified), with
+                          exclude_page_ids and overrides params for the before/after builds.
+  qagen.py                top_k_keyphrases(): non-overlapping top-k idf-weighted phrases
+                          per passage (extends assistant.keyphrase's single-best-window
+                          idea to several independent questions per passage).
+  scenarios.py            inject_stale_numbers(), add_heading(), discover_retrieval_misses():
+                          the 3 failure causes' mechanics (2 seeded, 1 discovered).
+  labeling.py             label_answer(): supported / unsupported / stale, with the
+                          3-way failure-cause attribution, against what the retriever
+                          actually returned, never against a scenario's own seeded intent.
+  corpus_manifest.json    Committed: 383 real page records (url, title, sha256, word count).
+  eval/
+    frozen_eval_set.json       Committed: 300 questions, ids and short keyphrase quotes only.
+    scenario_key.json           Committed: which 9 page_ids are missing/stale/retrieval-miss.
+  docs/
+    fix_worklist.json            The 8 real fixes applied, one entry per fix.
+    before_after_audit_output.txt  Raw benchmark output.
+    comms_audit_test_output.txt    Raw pytest output.
+  worker/                 A real but undeployed Cloudflare Worker (Honest framing).
+    wrangler.toml                AI + Vectorize bindings, not bound to a real account.
+    src/citation.ts               Pure citation-formatting logic, unit tested.
+    src/index.ts                   The fetch handler: embed via Workers AI, query
+                                  Vectorize, format the citation the same way
+                                  assistant/answer.py's extractive Draft does.
+  tests/
+    test_labeling.py              The 4 label/cause combinations, against a small
+                                  synthetic fixture index (fast, no real corpus needed).
+    test_scenarios.py              inject_stale_numbers, add_heading, and a
+                                  discover_retrieval_misses case with a provably
+                                  correct answer (disjoint-vocabulary passages).
+    test_qagen.py                   Non-overlap and determinism of top_k_keyphrases.
+    test_real_corpus_smoke.py        Exercises the real fetched corpus; skips cleanly
+                                  if corpus_manifest.json is missing.
+```
+
 ### Why the deploy gate and the extractive draft generator share a hard boundary
 
 `DraftGenerator` can only cite an article id the retriever itself returned from the real
@@ -387,6 +489,29 @@ parsing, 17 domains, uniqueness, the disclosed IVS/I&S version-drift gap), the r
 seeded regressions (citing the wrong control, removing the withhold check entirely), both
 independently caught. Corpus- and gate-dependent tests skip cleanly if `caiq/data/*.json`
 or `caiq/frozen_eval_set.json` have not been built yet.
+
+### Knowledge-Gap Audit extension
+
+`pytest comms_audit/tests -v` (`comms_audit/docs/comms_audit_test_output.txt`): 16 tests, 0
+failures. `test_labeling.py` checks all 4 label/cause outcomes (supported; stale against a
+page marked stale; unsupported/missing_page when the expected page is excluded from the
+index entirely; unsupported/retrieval_miss when the page is present but a different
+passage legitimately outranks it) against a small synthetic fixture index, so the labeling
+logic is verified independently of the real corpus. `test_scenarios.py` checks
+`inject_stale_numbers` replaces distinct numeric tokens with a different value (and is a
+no-op on text with no numbers), `add_heading` places the phrase first, and
+`discover_retrieval_misses` returns nothing on two passages engineered to have disjoint
+vocabulary, a case with a provably correct answer (zero). `test_qagen.py` checks
+`top_k_keyphrases` never reuses a word across two of its phrases and stops early on a
+2-word passage with no signal left. `test_real_corpus_smoke.py` exercises the real,
+fetched 383-page corpus end to end (manifest shape, exclude/override composition, a real
+BM25 search), skipping cleanly if `corpus_manifest.json` has not been fetched yet.
+
+`npx vitest run` in `comms_audit/worker/`: 3 tests, 0 failures, covering
+`citationFromMatches` against an empty result set, a 2-match result (confidence is the
+score margin), and a single match (confidence equals its own score). `npx tsc --noEmit`
+passes clean. Neither test touches a live `AI` or `VECTORIZE_INDEX` binding (Honest
+framing).
 
 ## Findings
 
@@ -487,6 +612,52 @@ gone, not just one of the two), which measures 66.0% (198/300) and is caught; th
 partial-regression version is not claimed to be caught, and is not in the final test suite,
 because it genuinely is not caught at this coverage level.
 
+### Knowledge-Gap Audit extension: a 320-word chunk size made a page's own first chunk the most common wrong answer
+
+**The first chunking design (320 words/chunk, the same size `assistant/ingest.py` uses for
+its wikitext sources above) measured only 79.5% natural citation accuracy on 1,021
+passages from this real corpus, with no seeded failure yet in the picture.** Printing the
+actual misses (`comms_audit/scripts/debug_natural_misses.py`, not kept in the final repo)
+showed the dominant pattern was not cross-page confusion: 6 of the first 8 misses printed
+were the *same* page's chunk 1 outranking the chunk that actually answered the question.
+A page's opening paragraph tends to restate the page title's own words and often previews
+what later sections cover, which gives chunk 1 a structural BM25 advantage independent of
+whether it actually answers a given question. The wrong hypothesis tried first was a
+smaller chunk size (150 words), on the theory that finer chunks would be more topically
+specific; it measured worse, 68.5%, because a 150-word chunk is often too short to carry
+enough of its own distinguishing vocabulary to win against a competing page's chunk 1. The
+fix that actually worked was the opposite: 700-word chunks, close to one chunk per real
+page, which removes most of the "chunk 1 vs. chunk N" competition inside a single page by
+removing most of the within-page competition entirely; natural accuracy measured 88.7%.
+`comms_audit/ingest.py`'s `CHUNK_WORDS` constant documents all three measurements.
+
+**A single frozen question per worklist page was too small a signal for a page-level
+content fix to move a 300-question measured rate.** The first version of this benchmark
+asked exactly one question per page (9 scenario questions out of 300); fixing all 9 moved
+the citation-supported rate from 87.0% to 89.0%, a 2-point swing nowhere near the shape of
+the resume's 59%-to-82% claim, because 9 out of 300 is too small a lever regardless of how
+completely those 9 are fixed. The fix was `qagen.top_k_keyphrases`, asking 8 to 11
+independent real questions about each of the same 9 pages (72 to 99 of the 300 frozen
+questions instead of 9); measured before/after moved to **67.0% to 88.7%** (see Measured
+results), a 21.7-point swing, the same direction and a similar magnitude to the claim,
+without changing which pages or how many pages carry the worklist.
+
+**The retrieval-miss fix (adding an explicit heading naming the page's own topic) did not
+flip any of the 3 discovered pages after 2 genuine attempts, and the honest conclusion is
+that this specific fix mechanism is not strong enough for this specific failure mode.** The
+first attempt prepended one sentence ("{Phrase}. " at the top of the page); 0 of 3 pages
+flipped. The second attempt prepended two sentences, explicitly naming the page as "the
+primary reference" for its topic; still 0 of 3. Unlike the missing-page and stale-number
+fixes, which are structurally guaranteed to work (removing an exclusion restores the only
+copy of that content; correcting a number back to the original text restores the original
+retrieval behavior exactly), a retrieval-miss fix has to out-score whatever real, unrelated
+content is currently winning, and a short heading addition on a 700-word page is a small
+fraction of that page's total term weight. A stronger fix (substantially rewriting the
+competing page, or moving the topic to its own dedicated page) was not attempted, per the
+playbook's at-most-3-genuine-attempts rule; this is reported as a real, disclosed shortfall
+in Honest framing and Limitations, not retried past the limit or quietly dropped from the
+worklist.
+
 ## Measured results
 
 Machine: Windows 11 (original corpus build and BM25-only gate), WSL2 Ubuntu 22.04 Python
@@ -541,6 +712,29 @@ Machine: Windows 11, Python 3.12.10, openpyxl 3.1.5, pytest 9.1.1.
 | Each draft cites the control objective it rests on | Structurally verified: every non-withheld `Draft` carries a `cited_control_id` that resolves in the real control corpus (`tests/test_caiq_answer_library.py`) |
 | Questions no committed evidence covers are withheld rather than answered | **102 of 300** frozen eval items are expected-withheld (16 for a missing control id, 86 for a missing evidence artifact); measured withhold behavior matches expected on all 300 (`docs/caiq_eval_gate_output.txt`) |
 | Frozen 300-question eval set gates merges at a 70% citation floor | **100.0%** (300/300) citation accuracy against the 70% threshold (`docs/caiq_eval_gate_output.txt`); see Honest framing and Findings for what this number does and does not claim, and for the seeded regression that measured only 71% on the first attempt |
+
+### Knowledge-Gap Audit extension
+
+Machine: Windows 11, Python 3.12.10, BM25 retrieval (`assistant/retrieval.py`, unmodified).
+Raw output: `comms_audit/docs/before_after_audit_output.txt`.
+
+| Claim | Measured |
+|---|---|
+| 400-page public corpus of one company's docs and announcement posts | **383 pages** (134 docs + 249 blog), 96% of target after candidate thin/stub pages were dropped (Honest framing) |
+| 300 frozen questions | **300**, all template-generated from real passages of the real corpus (`comms_audit/eval/frozen_eval_set.json`) |
+| Each answer labeled supported, unsupported or stale against its own cited passage | **Implemented and exercised on all 300** (`comms_audit/labeling.py`, `tests/test_labeling.py`) |
+| Every failure attributed to a missing page, a stale number, or a passage no retriever reached | **Implemented and exercised**: before-fix breakdown was 33 missing_page + 33 stale_number + 33 retrieval_miss |
+| 28 structural content fixes to 9 pages | **8 fixes to 9 pages** (3 page-additions, 5 stale-number corrections); short of 28 after 2 genuine attempts, see Findings and Honest framing |
+| Citation-supported answers raised from 59% to 82% | **67.0% to 88.7%** (201/300 to 266/300); same direction and a comparable 21.7-point swing, not the claimed figures exactly, see Findings |
+
+The 3 discovered retrieval-miss pages (`blog-translate-your-cloudflare-site`,
+`docs-workers-wrangler-commands-r2`, `docs-workers-configuration-cloudflare-access`) are
+still failing after both fix attempts; the after-fix breakdown is 0 missing_page + 0
+stale_number + 34 retrieval_miss (34, not 33, because restoring the 3 missing pages and
+correcting the 3 stale pages changes the corpus's overall idf statistics, BM25's scoring
+depends on the whole corpus, not just the page in question, which flipped one otherwise
+unrelated probe from supported to a genuine retrieval miss; it is not from any
+non-determinism in the run, which is bit-for-bit reproducible, see Building and running).
 
 ## Building and running
 
@@ -607,6 +801,22 @@ venv\Scripts\python.exe -m scripts.run_caiq_eval_gate         # the merge gate i
 venv\Scripts\python.exe -m pytest tests -q                     # all tests, including caiq's
 ```
 
+```
+# Knowledge-Gap Audit extension (Windows)
+venv\Scripts\python.exe -m pip install beautifulsoup4==4.14.3 lxml==6.0.2
+
+venv\Scripts\python.exe -m comms_audit.scripts.fetch_corpus     # fetches the real ~400-page corpus, rebuilds corpus_manifest.json
+venv\Scripts\python.exe -m comms_audit.ingest                    # builds the full (unmodified) passage corpus
+venv\Scripts\python.exe -m comms_audit.scripts.run_before_after_audit  # the benchmark: picks the worklist, freezes 300 questions,
+                                                                  # measures before, applies fixes, measures after
+venv\Scripts\python.exe -m pytest comms_audit/tests -v           # 16 tests; real-corpus tests skip cleanly if not fetched yet
+
+cd comms_audit\worker
+npm install
+npx tsc -p tsconfig.json --noEmit   # type-check
+npx vitest run                      # 3 tests
+```
+
 ## Sibling comparison
 
 [`citation-grounded-maintenance-assistant`](https://github.com/Manas103/citation-grounded-maintenance-assistant)
@@ -667,3 +877,19 @@ sent-unedited rate, and the 4 caught regressions, is the part that carries the p
   and CCM v4.1.1 are not the same version (Honest framing); they are always withheld, which
   is a disclosed, structural gap, not a bug this project hid. The frozen 300-question eval
   set repeats 39 of the real 261 questions to reach the resume's 300 count.
+- **Knowledge-Gap Audit extension.** The corpus is 383 real pages, 96% of the 400-page
+  target (Honest framing); 17 candidate URLs were dropped for being too thin. The worklist
+  claims 28 fixes to 9 pages; this build measured 8 real fixes to the same 9 pages after 2
+  genuine attempts, because most of the 9 pages did not contain 3 independently
+  correctable numeric facts each (Findings). The citation-supported rate moved 67.0% to
+  88.7% against a claimed 59% to 82%, the same direction and a comparable swing but not the
+  claimed figures. The 3 discovered retrieval-miss pages are still failing after 2 genuine
+  fix attempts (a one-sentence, then a two-sentence, topic heading); a stronger fix exists
+  in principle (rewriting the competing page, or giving the topic its own page) but was not
+  attempted, per the playbook's attempt limit. Each of the 9 worklist pages is probed with
+  8 to 11 questions rather than 1, a design choice made so a page-level fix could move a
+  300-question measured rate at all (Findings); it means the "9 pages" in the 59%-to-82%
+  swing are doing more work per page than an unweighted reading of "9 pages out of several
+  hundred" would suggest. The `comms_audit/worker/` Cloudflare Worker is wired to Workers
+  AI and Vectorize bindings but has never run against a live Cloudflare account; the
+  measured numbers above are entirely from the Python BM25 path.

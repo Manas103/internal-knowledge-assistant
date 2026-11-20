@@ -1,0 +1,16 @@
+name = "comms-audit-wiki-assistant"
+main = "src/index.ts"
+compatibility_date = "2026-11-01"
+
+# Documented, not deployed: this project has no bound Cloudflare account in
+# this build environment (see README Honest framing). The index name and
+# binding names below are what a real deployment would use; python's
+# assistant.retrieval.BM25Index is the path every number in this extension's
+# README is actually measured against.
+
+[ai]
+binding = "AI"
+
+[[vectorize]]
+binding = "VECTORIZE_INDEX"
+index_name = "comms-audit-wiki-index"

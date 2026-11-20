@@ -1,0 +1,1802 @@
+[
+  {
+    "question": "What does Glossary \u00b7 Cloudflare Workers AI docs say about utilizing serverless GPUs?",
+    "expected_doc_id": "docs-workers-ai-platform-glossary",
+    "expected_page_number": 1,
+    "key_phrase": "utilizing serverless GPUs"
+  },
+  {
+    "question": "According to Glossary \u00b7 Cloudflare Workers AI docs, what is the current status of GPUs Serverless GPUs?",
+    "expected_doc_id": "docs-workers-ai-platform-glossary",
+    "expected_page_number": 1,
+    "key_phrase": "GPUs Serverless GPUs"
+  },
+  {
+    "question": "How does Glossary \u00b7 Cloudflare Workers AI docs describe graphics processing units?",
+    "expected_doc_id": "docs-workers-ai-platform-glossary",
+    "expected_page_number": 1,
+    "key_phrase": "graphics processing units"
+  },
+  {
+    "question": "According to Glossary \u00b7 Cloudflare Workers AI docs, what is the current status of models enhancing consistency?",
+    "expected_doc_id": "docs-workers-ai-platform-glossary",
+    "expected_page_number": 1,
+    "key_phrase": "models enhancing consistency"
+  },
+  {
+    "question": "How does Glossary \u00b7 Cloudflare Workers AI docs describe Inference Inference refers?",
+    "expected_doc_id": "docs-workers-ai-platform-glossary",
+    "expected_page_number": 1,
+    "key_phrase": "Inference Inference refers"
+  },
+  {
+    "question": "What number does Glossary \u00b7 Cloudflare Workers AI docs give for Adapters LoRA Adapters?",
+    "expected_doc_id": "docs-workers-ai-platform-glossary",
+    "expected_page_number": 1,
+    "key_phrase": "Adapters LoRA Adapters"
+  },
+  {
+    "question": "What does Glossary \u00b7 Cloudflare Workers AI docs say about effectively elicit desired?",
+    "expected_doc_id": "docs-workers-ai-platform-glossary",
+    "expected_page_number": 1,
+    "key_phrase": "effectively elicit desired"
+  },
+  {
+    "question": "What number does Glossary \u00b7 Cloudflare Workers AI docs give for generate predictions decisions?",
+    "expected_doc_id": "docs-workers-ai-platform-glossary",
+    "expected_page_number": 1,
+    "key_phrase": "generate predictions decisions"
+  },
+  {
+    "question": "What does Glossary \u00b7 Cloudflare Workers AI docs say about Templates Prompt Templates?",
+    "expected_doc_id": "docs-workers-ai-platform-glossary",
+    "expected_page_number": 1,
+    "key_phrase": "Templates Prompt Templates"
+  },
+  {
+    "question": "How does Glossary \u00b7 Cloudflare Workers AI docs describe refining input prompts?",
+    "expected_doc_id": "docs-workers-ai-platform-glossary",
+    "expected_page_number": 1,
+    "key_phrase": "refining input prompts"
+  },
+  {
+    "question": "How does Glossary \u00b7 Cloudflare Workers AI docs describe models enabling seamless?",
+    "expected_doc_id": "docs-workers-ai-platform-glossary",
+    "expected_page_number": 1,
+    "key_phrase": "models enabling seamless"
+  },
+  {
+    "question": "How does ReadableStreamBYOBReader \u00b7 Cloudflare Workers docs describe readAtLeast minElements bufferArrayBufferView?",
+    "expected_doc_id": "docs-workers-runtime-apis-streams-readablestreambyobreader",
+    "expected_page_number": 1,
+    "key_phrase": "readAtLeast minElements bufferArrayBufferView"
+  },
+  {
+    "question": "What number does ReadableStreamBYOBReader \u00b7 Cloudflare Workers docs give for BYOBReader Background BYOB?",
+    "expected_doc_id": "docs-workers-runtime-apis-streams-readablestreambyobreader",
+    "expected_page_number": 1,
+    "key_phrase": "BYOBReader Background BYOB"
+  },
+  {
+    "question": "How does ReadableStreamBYOBReader \u00b7 Cloudflare Workers docs describe reader readable getReader?",
+    "expected_doc_id": "docs-workers-runtime-apis-streams-readablestreambyobreader",
+    "expected_page_number": 1,
+    "key_phrase": "reader readable getReader"
+  },
+  {
+    "question": "According to ReadableStreamBYOBReader \u00b7 Cloudflare Workers docs, what is the current status of bufferArrayBufferView Promise ReadableStreamBYOBReadResult?",
+    "expected_doc_id": "docs-workers-runtime-apis-streams-readablestreambyobreader",
+    "expected_page_number": 1,
+    "key_phrase": "bufferArrayBufferView Promise ReadableStreamBYOBReadResult"
+  },
+  {
+    "question": "According to ReadableStreamBYOBReader \u00b7 Cloudflare Workers docs, what is the current status of minElements elementSize must?",
+    "expected_doc_id": "docs-workers-runtime-apis-streams-readablestreambyobreader",
+    "expected_page_number": 1,
+    "key_phrase": "minElements elementSize must"
+  },
+  {
+    "question": "What does ReadableStreamBYOBReader \u00b7 Cloudflare Workers docs say about thus minimizing copies?",
+    "expected_doc_id": "docs-workers-runtime-apis-streams-readablestreambyobreader",
+    "expected_page_number": 1,
+    "key_phrase": "thus minimizing copies"
+  },
+  {
+    "question": "According to ReadableStreamBYOBReader \u00b7 Cloudflare Workers docs, what is the current status of least minElements elements?",
+    "expected_doc_id": "docs-workers-runtime-apis-streams-readablestreambyobreader",
+    "expected_page_number": 1,
+    "key_phrase": "least minElements elements"
+  },
+  {
+    "question": "According to ReadableStreamBYOBReader \u00b7 Cloudflare Workers docs, what is the current status of promise rejects minElements?",
+    "expected_doc_id": "docs-workers-runtime-apis-streams-readablestreambyobreader",
+    "expected_page_number": 1,
+    "key_phrase": "promise rejects minElements"
+  },
+  {
+    "question": "According to ReadableStreamBYOBReader \u00b7 Cloudflare Workers docs, what is the current status of Uint32Array However fewer?",
+    "expected_doc_id": "docs-workers-runtime-apis-streams-readablestreambyobreader",
+    "expected_page_number": 1,
+    "key_phrase": "Uint32Array However fewer"
+  },
+  {
+    "question": "How does ReadableStreamBYOBReader \u00b7 Cloudflare Workers docs describe API WHATWG specification?",
+    "expected_doc_id": "docs-workers-runtime-apis-streams-readablestreambyobreader",
+    "expected_page_number": 1,
+    "key_phrase": "API WHATWG specification"
+  },
+  {
+    "question": "What number does ReadableStreamBYOBReader \u00b7 Cloudflare Workers docs give for mode byob Methods?",
+    "expected_doc_id": "docs-workers-runtime-apis-streams-readablestreambyobreader",
+    "expected_page_number": 1,
+    "key_phrase": "mode byob Methods"
+  },
+  {
+    "question": "What number does Write to Analytics Engine \u00b7 Cloudflare Workers docs give for ANALYTICS writeDataPoint blobs?",
+    "expected_doc_id": "docs-workers-examples-analytics-engine",
+    "expected_page_number": 1,
+    "key_phrase": "ANALYTICS writeDataPoint blobs"
+  },
+  {
+    "question": "According to Write to Analytics Engine \u00b7 Cloudflare Workers docs, what is the current status of ANALYTICS writeDataPoint blobs?",
+    "expected_doc_id": "docs-workers-examples-analytics-engine",
+    "expected_page_number": 1,
+    "key_phrase": "ANALYTICS writeDataPoint blobs"
+  },
+  {
+    "question": "According to Write to Analytics Engine \u00b7 Cloudflare Workers docs, what is the current status of ANALYTICS writeDataPoint blobs?",
+    "expected_doc_id": "docs-workers-examples-analytics-engine",
+    "expected_page_number": 1,
+    "key_phrase": "ANALYTICS writeDataPoint blobs"
+  },
+  {
+    "question": "According to Write to Analytics Engine \u00b7 Cloudflare Workers docs, what is the current status of ANALYTICS writeDataPoint blobs?",
+    "expected_doc_id": "docs-workers-examples-analytics-engine",
+    "expected_page_number": 1,
+    "key_phrase": "ANALYTICS writeDataPoint blobs"
+  },
+  {
+    "question": "What does Write to Analytics Engine \u00b7 Cloudflare Workers docs say about blobs strings Dimensions?",
+    "expected_doc_id": "docs-workers-examples-analytics-engine",
+    "expected_page_number": 1,
+    "key_phrase": "blobs strings Dimensions"
+  },
+  {
+    "question": "What number does Write to Analytics Engine \u00b7 Cloudflare Workers docs give for Grafana integration Visualize?",
+    "expected_doc_id": "docs-workers-examples-analytics-engine",
+    "expected_page_number": 1,
+    "key_phrase": "Grafana integration Visualize"
+  },
+  {
+    "question": "What does Write to Analytics Engine \u00b7 Cloudflare Workers docs say about toString doubles duration?",
+    "expected_doc_id": "docs-workers-examples-analytics-engine",
+    "expected_page_number": 1,
+    "key_phrase": "toString doubles duration"
+  },
+  {
+    "question": "What number does Write to Analytics Engine \u00b7 Cloudflare Workers docs give for toString doubles duration?",
+    "expected_doc_id": "docs-workers-examples-analytics-engine",
+    "expected_page_number": 1,
+    "key_phrase": "toString doubles duration"
+  },
+  {
+    "question": "What number does Write to Analytics Engine \u00b7 Cloudflare Workers docs give for doubles numbers Numeric?",
+    "expected_doc_id": "docs-workers-examples-analytics-engine",
+    "expected_page_number": 1,
+    "key_phrase": "doubles numbers Numeric"
+  },
+  {
+    "question": "How does Write to Analytics Engine \u00b7 Cloudflare Workers docs describe SUM sample interval?",
+    "expected_doc_id": "docs-workers-examples-analytics-engine",
+    "expected_page_number": 1,
+    "key_phrase": "SUM sample interval"
+  },
+  {
+    "question": "What does Write to Analytics Engine \u00b7 Cloudflare Workers docs say about sizes indexes strings?",
+    "expected_doc_id": "docs-workers-examples-analytics-engine",
+    "expected_page_number": 1,
+    "key_phrase": "sizes indexes strings"
+  },
+  {
+    "question": "What does Supported bindings per development mode \u00b7 Cloudflare Workers docs say about Transformations mTLS Queues?",
+    "expected_doc_id": "docs-workers-local-development-bindings-per-env",
+    "expected_page_number": 1,
+    "key_phrase": "Transformations mTLS Queues"
+  },
+  {
+    "question": "According to Supported bindings per development mode \u00b7 Cloudflare Workers docs, what is the current status of Transformations mTLS Queues?",
+    "expected_doc_id": "docs-workers-local-development-bindings-per-env",
+    "expected_page_number": 1,
+    "key_phrase": "Transformations mTLS Queues"
+  },
+  {
+    "question": "According to Supported bindings per development mode \u00b7 Cloudflare Workers docs, what is the current status of Vectorize Workflows Footnotes?",
+    "expected_doc_id": "docs-workers-local-development-bindings-per-env",
+    "expected_page_number": 1,
+    "key_phrase": "Vectorize Workflows Footnotes"
+  },
+  {
+    "question": "According to Supported bindings per development mode \u00b7 Cloudflare Workers docs, what is the current status of Flagship Hyperdrive Images?",
+    "expected_doc_id": "docs-workers-local-development-bindings-per-env",
+    "expected_page_number": 1,
+    "key_phrase": "Flagship Hyperdrive Images"
+  },
+  {
+    "question": "According to Supported bindings per development mode \u00b7 Cloudflare Workers docs, what is the current status of Flagship Hyperdrive Images?",
+    "expected_doc_id": "docs-workers-local-development-bindings-per-env",
+    "expected_page_number": 1,
+    "key_phrase": "Flagship Hyperdrive Images"
+  },
+  {
+    "question": "What does Supported bindings per development mode \u00b7 Cloudflare Workers docs say about locally simulated resources?",
+    "expected_doc_id": "docs-workers-local-development-bindings-per-env",
+    "expected_page_number": 1,
+    "key_phrase": "locally simulated resources"
+  },
+  {
+    "question": "What does Supported bindings per development mode \u00b7 Cloudflare Workers docs say about Vectorize Workflows Remote?",
+    "expected_doc_id": "docs-workers-local-development-bindings-per-env",
+    "expected_page_number": 1,
+    "key_phrase": "Vectorize Workflows Remote"
+  },
+  {
+    "question": "How does Supported bindings per development mode \u00b7 Cloudflare Workers docs describe simulations Remote binding?",
+    "expected_doc_id": "docs-workers-local-development-bindings-per-env",
+    "expected_page_number": 1,
+    "key_phrase": "simulations Remote binding"
+  },
+  {
+    "question": "What does Supported bindings per development mode \u00b7 Cloudflare Workers docs say about always executes locally?",
+    "expected_doc_id": "docs-workers-local-development-bindings-per-env",
+    "expected_page_number": 1,
+    "key_phrase": "always executes locally"
+  },
+  {
+    "question": "How does Supported bindings per development mode \u00b7 Cloudflare Workers docs describe development Local simulations?",
+    "expected_doc_id": "docs-workers-local-development-bindings-per-env",
+    "expected_page_number": 1,
+    "key_phrase": "development Local simulations"
+  },
+  {
+    "question": "What number does Supported bindings per development mode \u00b7 Cloudflare Workers docs give for Vite plugin equivalent?",
+    "expected_doc_id": "docs-workers-local-development-bindings-per-env",
+    "expected_page_number": 1,
+    "key_phrase": "Vite plugin equivalent"
+  },
+  {
+    "question": "What does Alpha database migration guide \u00b7 Cloudflare D1 docs say about dump sqlite3 dump?",
+    "expected_doc_id": "docs-d1-platform-alpha-migration",
+    "expected_page_number": 1,
+    "key_phrase": "dump sqlite3 dump"
+  },
+  {
+    "question": "How does Alpha database migration guide \u00b7 Cloudflare D1 docs describe July 27th 2023?",
+    "expected_doc_id": "docs-d1-platform-alpha-migration",
+    "expected_page_number": 1,
+    "key_phrase": "July 27th 2023"
+  },
+  {
+    "question": "What does Alpha database migration guide \u00b7 Cloudflare D1 docs say about recreate alpha D1?",
+    "expected_doc_id": "docs-d1-platform-alpha-migration",
+    "expected_page_number": 1,
+    "key_phrase": "recreate alpha D1"
+  },
+  {
+    "question": "According to Alpha database migration guide \u00b7 Cloudflare D1 docs, what is the current status of database sqlite3 db?",
+    "expected_doc_id": "docs-d1-platform-alpha-migration",
+    "expected_page_number": 1,
+    "key_phrase": "database sqlite3 db"
+  },
+  {
+    "question": "According to Alpha database migration guide \u00b7 Cloudflare D1 docs, what is the current status of table creation statement?",
+    "expected_doc_id": "docs-d1-platform-alpha-migration",
+    "expected_page_number": 1,
+    "key_phrase": "table creation statement"
+  },
+  {
+    "question": "According to Alpha database migration guide \u00b7 Cloudflare D1 docs, what is the current status of alpha database nam?",
+    "expected_doc_id": "docs-d1-platform-alpha-migration",
+    "expected_page_number": 1,
+    "key_phrase": "alpha database nam"
+  },
+  {
+    "question": "What does Alpha database migration guide \u00b7 Cloudflare D1 docs say about alpha database nam?",
+    "expected_doc_id": "docs-d1-platform-alpha-migration",
+    "expected_page_number": 1,
+    "key_phrase": "alpha database nam"
+  },
+  {
+    "question": "What number does Alpha database migration guide \u00b7 Cloudflare D1 docs give for alpha database nam?",
+    "expected_doc_id": "docs-d1-platform-alpha-migration",
+    "expected_page_number": 1,
+    "key_phrase": "alpha database nam"
+  },
+  {
+    "question": "How does Alpha database migration guide \u00b7 Cloudflare D1 docs describe released March 2024?",
+    "expected_doc_id": "docs-d1-platform-alpha-migration",
+    "expected_page_number": 1,
+    "key_phrase": "released March 2024"
+  },
+  {
+    "question": "According to Alpha database migration guide \u00b7 Cloudflare D1 docs, what is the current status of BLOB WITHOUT ROWID?",
+    "expected_doc_id": "docs-d1-platform-alpha-migration",
+    "expected_page_number": 1,
+    "key_phrase": "BLOB WITHOUT ROWID"
+  },
+  {
+    "question": "How does Alpha database migration guide \u00b7 Cloudflare D1 docs describe Alpha database migration?",
+    "expected_doc_id": "docs-d1-platform-alpha-migration",
+    "expected_page_number": 1,
+    "key_phrase": "Alpha database migration"
+  },
+  {
+    "question": "What does Web Standards \u00b7 Cloudflare Workers docs say about mockagentdisablenetconnect fetchMock disableNetConnect?",
+    "expected_doc_id": "docs-workers-testing-miniflare-core-standards",
+    "expected_page_number": 1,
+    "key_phrase": "mockagentdisablenetconnect fetchMock disableNetConnect"
+  },
+  {
+    "question": "What does Web Standards \u00b7 Cloudflare Workers docs say about reply 200 Mocked?",
+    "expected_doc_id": "docs-workers-testing-miniflare-core-standards",
+    "expected_page_number": 1,
+    "key_phrase": "reply 200 Mocked"
+  },
+  {
+    "question": "What does Web Standards \u00b7 Cloudflare Workers docs say about MockAgent id mockagentgetorigin?",
+    "expected_doc_id": "docs-workers-testing-miniflare-core-standards",
+    "expected_page_number": 1,
+    "key_phrase": "MockAgent id mockagentgetorigin"
+  },
+  {
+    "question": "What number does Web Standards \u00b7 Cloudflare Workers docs give for MockPool id mockpoolinterceptoptions?",
+    "expected_doc_id": "docs-workers-testing-miniflare-core-standards",
+    "expected_page_number": 1,
+    "key_phrase": "MockPool id mockpoolinterceptoptions"
+  },
+  {
+    "question": "According to Web Standards \u00b7 Cloudflare Workers docs, what is the current status of const fetchMock createFetchMock?",
+    "expected_doc_id": "docs-workers-testing-miniflare-core-standards",
+    "expected_page_number": 1,
+    "key_phrase": "const fetchMock createFetchMock"
+  },
+  {
+    "question": "How does Web Standards \u00b7 Cloudflare Workers docs describe Reference Mocking Outbound?",
+    "expected_doc_id": "docs-workers-testing-miniflare-core-standards",
+    "expected_page_number": 1,
+    "key_phrase": "Reference Mocking Outbound"
+  },
+  {
+    "question": "What number does Web Standards \u00b7 Cloudflare Workers docs give for Mocked response Subrequests?",
+    "expected_doc_id": "docs-workers-testing-miniflare-core-standards",
+    "expected_page_number": 1,
+    "key_phrase": "Mocked response Subrequests"
+  },
+  {
+    "question": "How does Web Standards \u00b7 Cloudflare Workers docs describe undici nodejs org?",
+    "expected_doc_id": "docs-workers-testing-miniflare-core-standards",
+    "expected_page_number": 1,
+    "key_phrase": "undici nodejs org"
+  },
+  {
+    "question": "How does Web Standards \u00b7 Cloudflare Workers docs describe undici nodejs org?",
+    "expected_doc_id": "docs-workers-testing-miniflare-core-standards",
+    "expected_page_number": 1,
+    "key_phrase": "undici nodejs org"
+  },
+  {
+    "question": "According to Web Standards \u00b7 Cloudflare Workers docs, what is the current status of undici nodejs org?",
+    "expected_doc_id": "docs-workers-testing-miniflare-core-standards",
+    "expected_page_number": 1,
+    "key_phrase": "undici nodejs org"
+  },
+  {
+    "question": "How does Web Standards \u00b7 Cloudflare Workers docs describe import Miniflare createFetchMock?",
+    "expected_doc_id": "docs-workers-testing-miniflare-core-standards",
+    "expected_page_number": 1,
+    "key_phrase": "import Miniflare createFetchMock"
+  },
+  {
+    "question": "What number does Translate Your CloudFlare Site | Cloudflare Blog give for their native tongue?",
+    "expected_doc_id": "blog-translate-your-cloudflare-site",
+    "expected_page_number": 2,
+    "key_phrase": "their native tongue"
+  },
+  {
+    "question": "What number does Translate Your CloudFlare Site | Cloudflare Blog give for translators We couldn?",
+    "expected_doc_id": "blog-translate-your-cloudflare-site",
+    "expected_page_number": 2,
+    "key_phrase": "translators We couldn"
+  },
+  {
+    "question": "How does Translate Your CloudFlare Site | Cloudflare Blog describe we love talking?",
+    "expected_doc_id": "blog-translate-your-cloudflare-site",
+    "expected_page_number": 2,
+    "key_phrase": "we love talking"
+  },
+  {
+    "question": "What does Translate Your CloudFlare Site | Cloudflare Blog say about special THANK YOU?",
+    "expected_doc_id": "blog-translate-your-cloudflare-site",
+    "expected_page_number": 2,
+    "key_phrase": "special THANK YOU"
+  },
+  {
+    "question": "What does Translate Your CloudFlare Site | Cloudflare Blog say about John Roberts Subscribe?",
+    "expected_doc_id": "blog-translate-your-cloudflare-site",
+    "expected_page_number": 2,
+    "key_phrase": "John Roberts Subscribe"
+  },
+  {
+    "question": "How does Translate Your CloudFlare Site | Cloudflare Blog describe our global audience?",
+    "expected_doc_id": "blog-translate-your-cloudflare-site",
+    "expected_page_number": 2,
+    "key_phrase": "our global audience"
+  },
+  {
+    "question": "What does Translate Your CloudFlare Site | Cloudflare Blog say about shout out?",
+    "expected_doc_id": "blog-translate-your-cloudflare-site",
+    "expected_page_number": 2,
+    "key_phrase": "shout out"
+  },
+  {
+    "question": "What number does Translate Your CloudFlare Site | Cloudflare Blog give for Apps Community Follow?",
+    "expected_doc_id": "blog-translate-your-cloudflare-site",
+    "expected_page_number": 2,
+    "key_phrase": "Apps Community Follow"
+  },
+  {
+    "question": "What number does Translate Your CloudFlare Site | Cloudflare Blog give for CloudFlare translator you?",
+    "expected_doc_id": "blog-translate-your-cloudflare-site",
+    "expected_page_number": 2,
+    "key_phrase": "CloudFlare translator you"
+  },
+  {
+    "question": "What number does Translate Your CloudFlare Site | Cloudflare Blog give for the translations?",
+    "expected_doc_id": "blog-translate-your-cloudflare-site",
+    "expected_page_number": 2,
+    "key_phrase": "the translations"
+  },
+  {
+    "question": "What does Translate Your CloudFlare Site | Cloudflare Blog say about done this without?",
+    "expected_doc_id": "blog-translate-your-cloudflare-site",
+    "expected_page_number": 2,
+    "key_phrase": "done this without"
+  },
+  {
+    "question": "What does R2 \u00b7 Cloudflare Workers docs say about sql query WAREHOUSE?",
+    "expected_doc_id": "docs-workers-wrangler-commands-r2",
+    "expected_page_number": 10,
+    "key_phrase": "sql query WAREHOUSE"
+  },
+  {
+    "question": "According to R2 \u00b7 Cloudflare Workers docs, what is the current status of sql query WAREHOUSE?",
+    "expected_doc_id": "docs-workers-wrangler-commands-r2",
+    "expected_page_number": 10,
+    "key_phrase": "sql query WAREHOUSE"
+  },
+  {
+    "question": "How does R2 \u00b7 Cloudflare Workers docs describe sql query WAREHOUSE?",
+    "expected_doc_id": "docs-workers-wrangler-commands-r2",
+    "expected_page_number": 10,
+    "key_phrase": "sql query WAREHOUSE"
+  },
+  {
+    "question": "What number does R2 \u00b7 Cloudflare Workers docs give for profile Basin SQL?",
+    "expected_doc_id": "docs-workers-wrangler-commands-r2",
+    "expected_page_number": 10,
+    "key_phrase": "profile Basin SQL"
+  },
+  {
+    "question": "What does R2 \u00b7 Cloudflare Workers docs say about Catalog validation prompt?",
+    "expected_doc_id": "docs-workers-wrangler-commands-r2",
+    "expected_page_number": 10,
+    "key_phrase": "Catalog validation prompt"
+  },
+  {
+    "question": "How does R2 \u00b7 Cloudflare Workers docs describe Basin SQL Wrangler?",
+    "expected_doc_id": "docs-workers-wrangler-commands-r2",
+    "expected_page_number": 10,
+    "key_phrase": "Basin SQL Wrangler"
+  },
+  {
+    "question": "According to R2 \u00b7 Cloudflare Workers docs, what is the current status of NAMESPACE TABLE LIMIT?",
+    "expected_doc_id": "docs-workers-wrangler-commands-r2",
+    "expected_page_number": 10,
+    "key_phrase": "NAMESPACE TABLE LIMIT"
+  },
+  {
+    "question": "According to R2 \u00b7 Cloudflare Workers docs, what is the current status of NAMESPACE TABLE LIMIT?",
+    "expected_doc_id": "docs-workers-wrangler-commands-r2",
+    "expected_page_number": 10,
+    "key_phrase": "NAMESPACE TABLE LIMIT"
+  },
+  {
+    "question": "What number does R2 \u00b7 Cloudflare Workers docs give for NAMESPACE TABLE LIMIT?",
+    "expected_doc_id": "docs-workers-wrangler-commands-r2",
+    "expected_page_number": 10,
+    "key_phrase": "NAMESPACE TABLE LIMIT"
+  },
+  {
+    "question": "According to R2 \u00b7 Cloudflare Workers docs, what is the current status of v boolean alias?",
+    "expected_doc_id": "docs-workers-wrangler-commands-r2",
+    "expected_page_number": 10,
+    "key_phrase": "v boolean alias"
+  },
+  {
+    "question": "According to R2 \u00b7 Cloudflare Workers docs, what is the current status of yarn wrangler basin?",
+    "expected_doc_id": "docs-workers-wrangler-commands-r2",
+    "expected_page_number": 10,
+    "key_phrase": "yarn wrangler basin"
+  },
+  {
+    "question": "What number does Cloudflare Access \u00b7 Cloudflare Workers docs give for visiting localhost 8787?",
+    "expected_doc_id": "docs-workers-configuration-cloudflare-access",
+    "expected_page_number": 3,
+    "key_phrase": "visiting localhost 8787"
+  },
+  {
+    "question": "What number does Cloudflare Access \u00b7 Cloudflare Workers docs give for authenticated status 403?",
+    "expected_doc_id": "docs-workers-configuration-cloudflare-access",
+    "expected_page_number": 3,
+    "key_phrase": "authenticated status 403"
+  },
+  {
+    "question": "What number does Cloudflare Access \u00b7 Cloudflare Workers docs give for authenticated status 403?",
+    "expected_doc_id": "docs-workers-configuration-cloudflare-access",
+    "expected_page_number": 3,
+    "key_phrase": "authenticated status 403"
+  },
+  {
+    "question": "What does Cloudflare Access \u00b7 Cloudflare Workers docs say about Understand Access hierarchy?",
+    "expected_doc_id": "docs-workers-configuration-cloudflare-access",
+    "expected_page_number": 3,
+    "key_phrase": "Understand Access hierarchy"
+  },
+  {
+    "question": "According to Cloudflare Access \u00b7 Cloudflare Workers docs, what is the current status of user identity Omit?",
+    "expected_doc_id": "docs-workers-configuration-cloudflare-access",
+    "expected_page_number": 3,
+    "key_phrase": "user identity Omit"
+  },
+  {
+    "question": "How does Cloudflare Access \u00b7 Cloudflare Workers docs describe ctx access getIdentity?",
+    "expected_doc_id": "docs-workers-configuration-cloudflare-access",
+    "expected_page_number": 3,
+    "key_phrase": "ctx access getIdentity"
+  },
+  {
+    "question": "How does Cloudflare Access \u00b7 Cloudflare Workers docs describe ctx access getIdentity?",
+    "expected_doc_id": "docs-workers-configuration-cloudflare-access",
+    "expected_page_number": 3,
+    "key_phrase": "ctx access getIdentity"
+  },
+  {
+    "question": "What number does Cloudflare Access \u00b7 Cloudflare Workers docs give for ctx access getIdentity?",
+    "expected_doc_id": "docs-workers-configuration-cloudflare-access",
+    "expected_page_number": 3,
+    "key_phrase": "ctx access getIdentity"
+  },
+  {
+    "question": "How does Cloudflare Access \u00b7 Cloudflare Workers docs describe identity email unknown?",
+    "expected_doc_id": "docs-workers-configuration-cloudflare-access",
+    "expected_page_number": 3,
+    "key_phrase": "identity email unknown"
+  },
+  {
+    "question": "According to Cloudflare Access \u00b7 Cloudflare Workers docs, what is the current status of identity email unknown?",
+    "expected_doc_id": "docs-workers-configuration-cloudflare-access",
+    "expected_page_number": 3,
+    "key_phrase": "identity email unknown"
+  },
+  {
+    "question": "According to Cloudflare Access \u00b7 Cloudflare Workers docs, what is the current status of Access identity shape?",
+    "expected_doc_id": "docs-workers-configuration-cloudflare-access",
+    "expected_page_number": 3,
+    "key_phrase": "Access identity shape"
+  },
+  {
+    "question": "How does A Brief Primer on Anycast | Cloudflare Blog describe compromised zombie computers?",
+    "expected_doc_id": "blog-a-brief-anycast-primer",
+    "expected_page_number": 2,
+    "key_phrase": "compromised zombie computers"
+  },
+  {
+    "question": "How does Railgun in the real world: faster web page load times | Cloudflare Blog describe accelerating RESTful APIs?",
+    "expected_doc_id": "blog-railgun-in-the-real-world",
+    "expected_page_number": 3,
+    "key_phrase": "accelerating RESTful APIs"
+  },
+  {
+    "question": "What does Post Mortem: Today's Attack; Apparent Google Apps/Gmail Vulnerability; and How to Protect Yourself | Cloudflare Blog say about potentially insecure carrier?",
+    "expected_doc_id": "blog-post-mortem-todays-attack-apparent-google-app",
+    "expected_page_number": 3,
+    "key_phrase": "potentially insecure carrier"
+  },
+  {
+    "question": "What does The DDoS That Knocked Spamhaus Offline (And How We Mitigated It) | Cloudflare Blog say about predecessor Paul Vixie?",
+    "expected_doc_id": "blog-the-ddos-that-knocked-spamhaus-offline-and-ho",
+    "expected_page_number": 3,
+    "key_phrase": "predecessor Paul Vixie"
+  },
+  {
+    "question": "How does inkling-2-small (Thinking Machines) \u00b7 Cloudflare AI docs \u00b7 Cloudflare Workers AI docs describe far logit bias?",
+    "expected_doc_id": "docs-workers-ai-models-inkling-2-small",
+    "expected_page_number": 1,
+    "key_phrase": "far logit bias"
+  },
+  {
+    "question": "How does Introducing SPDY | Cloudflare Blog describe revised IETF proposal?",
+    "expected_doc_id": "blog-introducing-spdy",
+    "expected_page_number": 1,
+    "key_phrase": "revised IETF proposal"
+  },
+  {
+    "question": "What does Headers \u00b7 Cloudflare Pages docs say about 604800 alone Reversing?",
+    "expected_doc_id": "docs-pages-configuration-headers",
+    "expected_page_number": 1,
+    "key_phrase": "604800 alone Reversing"
+  },
+  {
+    "question": "What number does aws-sdk-js-v3 \u00b7 Cloudflare R2 docs give for S3Client ListBucketsCommand ListObjectsV2Command?",
+    "expected_doc_id": "docs-r2-examples-aws-aws-sdk-js-v3",
+    "expected_page_number": 1,
+    "key_phrase": "S3Client ListBucketsCommand ListObjectsV2Command"
+  },
+  {
+    "question": "How does Joe Brinkman discusses the new CMS: Cloud, Mobile, Social | Cloudflare Blog describe very strong uptake?",
+    "expected_doc_id": "blog-joe-brinkman-discusses-the-new-cms-cloud-mobi",
+    "expected_page_number": 1,
+    "key_phrase": "very strong uptake"
+  },
+  {
+    "question": "According to Workers Binding \u00b7 Cloudflare Workers AI docs, what is the current status of markdown conversion SupportedFormat?",
+    "expected_doc_id": "docs-workers-ai-features-markdown-conversion-usage-binding",
+    "expected_page_number": 2,
+    "key_phrase": "markdown conversion SupportedFormat"
+  },
+  {
+    "question": "How does Seoul, Korea: CloudFlare's 23rd Data Center | Cloudflare Blog describe expansion Seoul expands?",
+    "expected_doc_id": "blog-seoul-korea-cloudflares-23rd-data-center",
+    "expected_page_number": 1,
+    "key_phrase": "expansion Seoul expands"
+  },
+  {
+    "question": "According to Hugging Face Chat UI \u00b7 Cloudflare Workers AI docs, what is the current status of Hugging Face Prerequisites?",
+    "expected_doc_id": "docs-workers-ai-configuration-hugging-face-chat-ui",
+    "expected_page_number": 1,
+    "key_phrase": "Hugging Face Prerequisites"
+  },
+  {
+    "question": "According to Welcome DreamHost! | Cloudflare Blog, what is the current status of Kathy Brahm DreamHost?",
+    "expected_doc_id": "blog-welcome-dreamhost",
+    "expected_page_number": 1,
+    "key_phrase": "Kathy Brahm DreamHost"
+  },
+  {
+    "question": "What does CloudFlare's Railgun: Easier Than Ever | Cloudflare Blog say about ELServer FastDomain GreenGeeks?",
+    "expected_doc_id": "blog-cloudflares-railgun-easier-than-ever",
+    "expected_page_number": 1,
+    "key_phrase": "ELServer FastDomain GreenGeeks"
+  },
+  {
+    "question": "How does Routing \u00b7 Cloudflare Pages docs describe dist Hugo hugo?",
+    "expected_doc_id": "docs-pages-functions-routing",
+    "expected_page_number": 1,
+    "key_phrase": "dist Hugo hugo"
+  },
+  {
+    "question": "According to Cloudflare Tips: Troubleshooting Common Problems | Cloudflare Blog, what is the current status of Practices Bugs Ninjas?",
+    "expected_doc_id": "blog-cloudflare-tips-troubleshooting-common-problems",
+    "expected_page_number": 2,
+    "key_phrase": "Practices Bugs Ninjas"
+  },
+  {
+    "question": "According to PlanetScale \u00b7 Cloudflare Workers docs, what is the current status of varchar 255 category?",
+    "expected_doc_id": "docs-workers-databases-third-party-integrations-planetscale",
+    "expected_page_number": 2,
+    "key_phrase": "varchar 255 category"
+  },
+  {
+    "question": "What does Workers API reference \u00b7 Cloudflare R2 docs say about ReadableStream ArrayBuffer ArrayBufferView?",
+    "expected_doc_id": "docs-r2-api-workers-workers-api-reference",
+    "expected_page_number": 1,
+    "key_phrase": "ReadableStream ArrayBuffer ArrayBufferView"
+  },
+  {
+    "question": "According to Introducing Mirage: Automatic Responsive Web Design via Intelligent Image Loading | Cloudflare Blog, what is the current status of Polish Mirage Mobile?",
+    "expected_doc_id": "blog-introducing-mirage-intelligent-image-loading",
+    "expected_page_number": 2,
+    "key_phrase": "Polish Mirage Mobile"
+  },
+  {
+    "question": "According to OCSP Stapling: How CloudFlare Just Made SSL 30% Faster | Cloudflare Blog, what is the current status of one fell swoop?",
+    "expected_doc_id": "blog-ocsp-stapling-how-cloudflare-just-made-ssl-30",
+    "expected_page_number": 2,
+    "key_phrase": "one fell swoop"
+  },
+  {
+    "question": "What number does AsyncLocalStorage \u00b7 Cloudflare Workers docs give for storeany callbackfunction argsarguments?",
+    "expected_doc_id": "docs-workers-runtime-apis-nodejs-asynclocalstorage",
+    "expected_page_number": 1,
+    "key_phrase": "storeany callbackfunction argsarguments"
+  },
+  {
+    "question": "According to Compare workflows \u00b7 Cloudflare Workers docs, what is the current status of gradual deployment Workflows?",
+    "expected_doc_id": "docs-workers-previews-compare-workflows",
+    "expected_page_number": 1,
+    "key_phrase": "gradual deployment Workflows"
+  },
+  {
+    "question": "What number does CloudFlare Heading to Parallels Summit 2013 | Cloudflare Blog give for Caesars Palace hotel?",
+    "expected_doc_id": "blog-cloudflare-heading-to-parallels-summit-2013",
+    "expected_page_number": 1,
+    "key_phrase": "Caesars Palace hotel"
+  },
+  {
+    "question": "What number does 10 Billion Page Views | Cloudflare Blog give for Wow Great job?",
+    "expected_doc_id": "blog-10-billion-page-views",
+    "expected_page_number": 1,
+    "key_phrase": "Wow Great job"
+  },
+  {
+    "question": "What does Deploy an Express.js application on Cloudflare Workers \u00b7 Cloudflare Workers docs say about express types express?",
+    "expected_doc_id": "docs-workers-tutorials-deploy-an-express-app",
+    "expected_page_number": 1,
+    "key_phrase": "express types express"
+  },
+  {
+    "question": "How does Page Rules Reordering Now Available | Cloudflare Blog describe screenshot Reordering feature?",
+    "expected_doc_id": "blog-page-rules-reordering-now-available",
+    "expected_page_number": 1,
+    "key_phrase": "screenshot Reordering feature"
+  },
+  {
+    "question": "According to App: Observe Earth Hour on Your Website | Cloudflare Blog, what is the current status of Hour Underpromise Overdeliver?",
+    "expected_doc_id": "blog-app-observe-earth-hour-on-your-website",
+    "expected_page_number": 1,
+    "key_phrase": "Hour Underpromise Overdeliver"
+  },
+  {
+    "question": "According to Atlanta: CloudFlare's 16th Data Center | Cloudflare Blog, what is the current status of classmate Fred Smith?",
+    "expected_doc_id": "blog-atlanta-cloudflares-16th-data-center",
+    "expected_page_number": 1,
+    "key_phrase": "classmate Fred Smith"
+  },
+  {
+    "question": "What number does Build an Interactive ChatGPT App \u00b7 Cloudflare Workers docs give for f8fafc minHeight 100vh?",
+    "expected_doc_id": "docs-workers-demos-chatgpt-app",
+    "expected_page_number": 4,
+    "key_phrase": "f8fafc minHeight 100vh"
+  },
+  {
+    "question": "What does Apache Killer Terminated: Zero Day Exploit, Zero Day Fix | Cloudflare Blog say about Apache Killer exploit?",
+    "expected_doc_id": "blog-apache-killer-killed-zero-day-exploit-zero-da",
+    "expected_page_number": 1,
+    "key_phrase": "Apache Killer exploit"
+  },
+  {
+    "question": "How does Wall Street Journal: CloudFlare the Most Innovative Network & Internet Technology Company of 2011 | Cloudflare Blog describe excessive spam surveillance?",
+    "expected_doc_id": "blog-wall-street-journal-cloudflare-the-most-innov",
+    "expected_page_number": 1,
+    "key_phrase": "excessive spam surveillance"
+  },
+  {
+    "question": "How does CloudFlare Tips: 5 Frequently used CloudFlare API calls | Cloudflare Blog describe 3146028677 Sumatran Tiger?",
+    "expected_doc_id": "blog-cloudflare-tips-frequently-used-cloudflare-ap",
+    "expected_page_number": 1,
+    "key_phrase": "3146028677 Sumatran Tiger"
+  },
+  {
+    "question": "What number does What We Just Did to Make SSL Even Faster | Cloudflare Blog give for lowest hanging fruit?",
+    "expected_doc_id": "blog-what-we-just-did-to-make-ssl-even-faster",
+    "expected_page_number": 1,
+    "key_phrase": "lowest hanging fruit"
+  },
+  {
+    "question": "According to How to Enable SSL on Tumblr, WordPress, Blogger, AppEngine, Posterous & More... | Cloudflare Blog, what is the current status of Ning TypePad Smugmug?",
+    "expected_doc_id": "blog-ssl-on-tumblr-wordpress-blogger-appengine-pos",
+    "expected_page_number": 1,
+    "key_phrase": "Ning TypePad Smugmug"
+  },
+  {
+    "question": "How does Encoding \u00b7 Cloudflare Workers docs describe fatal decoder ignoreBOM?",
+    "expected_doc_id": "docs-workers-runtime-apis-encoding",
+    "expected_page_number": 1,
+    "key_phrase": "fatal decoder ignoreBOM"
+  },
+  {
+    "question": "According to When the Attackers Name Malware After You, You Know You're Doing Something Right | Cloudflare Blog, what is the current status of Arms Race Bet?",
+    "expected_doc_id": "blog-when-the-bad-guys-name-malware-after-you-you",
+    "expected_page_number": 1,
+    "key_phrase": "Arms Race Bet"
+  },
+  {
+    "question": "What number does CloudFlare (aka. KickassDNS) | Cloudflare Blog give for ve ever hesitated?",
+    "expected_doc_id": "blog-cloudflare-aka-kickassdns",
+    "expected_page_number": 2,
+    "key_phrase": "ve ever hesitated"
+  },
+  {
+    "question": "How does Protecting CloudFlare sites from phishing | Cloudflare Blog describe photos damonbillian 7139602929?",
+    "expected_doc_id": "blog-protecting-cloudflare-sites-from-phishing",
+    "expected_page_number": 1,
+    "key_phrase": "photos damonbillian 7139602929"
+  },
+  {
+    "question": "What does Sandy, Meet CloudFlare | Cloudflare Blog say about tested fuel tanks?",
+    "expected_doc_id": "blog-sandy-meet-cloudflare",
+    "expected_page_number": 1,
+    "key_phrase": "tested fuel tanks"
+  },
+  {
+    "question": "How does CloudFlare and Parallels to Bring Website Performance and Security to Millions of SMBs | Cloudflare Blog describe Celal Ulgen Chief?",
+    "expected_doc_id": "blog-cloudflare-and-parallels-to-bring-website-per",
+    "expected_page_number": 1,
+    "key_phrase": "Celal Ulgen Chief"
+  },
+  {
+    "question": "What number does Authentication \u00b7 Cloudflare Workers docs give for CI continuous integration?",
+    "expected_doc_id": "docs-workers-wrangler-migration-v1-to-v2-wrangler-legacy-authentication",
+    "expected_page_number": 1,
+    "key_phrase": "CI continuous integration"
+  },
+  {
+    "question": "How does The bandwidth of a Boeing 747 and its impact on web browsing | Cloudflare Blog describe Makes SPDY Speedy?",
+    "expected_doc_id": "blog-the-bandwidth-of-a-boeing-747-and-its-impact",
+    "expected_page_number": 2,
+    "key_phrase": "Makes SPDY Speedy"
+  },
+  {
+    "question": "How does Localize a website with HTMLRewriter \u00b7 Cloudflare Pages docs describe ElementHandler countryStrings transform?",
+    "expected_doc_id": "docs-pages-tutorials-localize-a-website",
+    "expected_page_number": 2,
+    "key_phrase": "ElementHandler countryStrings transform"
+  },
+  {
+    "question": "What number does Today's Outage Post Mortem | Cloudflare Blog give for Flowspec provisioned filters?",
+    "expected_doc_id": "blog-todays-outage-post-mortem-82515",
+    "expected_page_number": 2,
+    "key_phrase": "Flowspec provisioned filters"
+  },
+  {
+    "question": "According to Thoughts on Abuse | Cloudflare Blog, what is the current status of Iranian officials threatening?",
+    "expected_doc_id": "blog-thoughts-on-abuse",
+    "expected_page_number": 1,
+    "key_phrase": "Iranian officials threatening"
+  },
+  {
+    "question": "How does Prepared statement methods \u00b7 Cloudflare D1 docs describe ContactName Victoria Ashworth?",
+    "expected_doc_id": "docs-d1-worker-api-prepared-statements",
+    "expected_page_number": 2,
+    "key_phrase": "ContactName Victoria Ashworth"
+  },
+  {
+    "question": "According to Build an Interactive ChatGPT App \u00b7 Cloudflare Workers docs, what is the current status of mate draw resigned?",
+    "expected_doc_id": "docs-workers-demos-chatgpt-app",
+    "expected_page_number": 1,
+    "key_phrase": "mate draw resigned"
+  },
+  {
+    "question": "According to Load Balancing without Load Balancers | Cloudflare Blog, what is the current status of cleanly signals Bird?",
+    "expected_doc_id": "blog-cloudflares-architecture-eliminating-single-p",
+    "expected_page_number": 3,
+    "key_phrase": "cleanly signals Bird"
+  },
+  {
+    "question": "What does The DDoS that almost broke the Internet | Cloudflare Blog say about 209 249 122?",
+    "expected_doc_id": "blog-the-ddos-that-almost-broke-the-internet",
+    "expected_page_number": 1,
+    "key_phrase": "209 249 122"
+  },
+  {
+    "question": "What does CloudFlare & OpenDNS Work Together to Help the Web | Cloudflare Blog say about OpenDNS Policy Legal?",
+    "expected_doc_id": "blog-cloudflare-opendns-work-together-to-save-the",
+    "expected_page_number": 3,
+    "key_phrase": "OpenDNS Policy Legal"
+  },
+  {
+    "question": "What does Thoughts on Abuse | Cloudflare Blog say about alleged copyright infringement?",
+    "expected_doc_id": "blog-thoughts-on-abuse",
+    "expected_page_number": 2,
+    "key_phrase": "alleged copyright infringement"
+  },
+  {
+    "question": "According to Tutorial - React SPA with an API \u00b7 Cloudflare Workers docs, what is the current status of viteLogo className logo?",
+    "expected_doc_id": "docs-workers-vite-plugin-tutorial",
+    "expected_page_number": 2,
+    "key_phrase": "viteLogo className logo"
+  },
+  {
+    "question": "How does App: Blitz.io Makes Performance and Load Testing Easy | Cloudflare Blog describe Mu Dynamics leaders?",
+    "expected_doc_id": "blog-app-blitzio-makes-performance-and-load-testin",
+    "expected_page_number": 1,
+    "key_phrase": "Mu Dynamics leaders"
+  },
+  {
+    "question": "According to CloudFlare and StopBadware partner to make the Web a better place | Cloudflare Blog, what is the current status of viruses spyware scareware?",
+    "expected_doc_id": "blog-cloudflare-and-stopbadware-partner-to-make-th",
+    "expected_page_number": 1,
+    "key_phrase": "viruses spyware scareware"
+  },
+  {
+    "question": "What does Community projects \u00b7 Cloudflare D1 docs say about Grainlift Grainlift connects?",
+    "expected_doc_id": "docs-d1-reference-community-projects",
+    "expected_page_number": 2,
+    "key_phrase": "Grainlift Grainlift connects"
+  },
+  {
+    "question": "According to CloudFlare\u2019s Newest App Partner: Prosperent\u2019s ProsperLinks | Cloudflare Blog, what is the current status of Backcountry REI Nordstrom?",
+    "expected_doc_id": "blog-cloudflares-newest-app-partner-prosperents-pr",
+    "expected_page_number": 1,
+    "key_phrase": "Backcountry REI Nordstrom"
+  },
+  {
+    "question": "What number does Turning \"I'm Under Attack\" into \"I'm Doing Some Good\" | Cloudflare Blog give for extraterrestrial life Folding?",
+    "expected_doc_id": "blog-turning-im-under-attack-into-im-doing-some-go",
+    "expected_page_number": 1,
+    "key_phrase": "extraterrestrial life Folding"
+  },
+  {
+    "question": "What does CloudFlare Tips: Recommended steps after activating through a partner | Cloudflare Blog say about PageRules PageRules gives?",
+    "expected_doc_id": "blog-cloudflare-tips-recommended-steps-after-activ",
+    "expected_page_number": 1,
+    "key_phrase": "PageRules PageRules gives"
+  },
+  {
+    "question": "How does Today's Outage Post Mortem | Cloudflare Blog describe discard Flowspec accepted?",
+    "expected_doc_id": "blog-todays-outage-post-mortem-82515",
+    "expected_page_number": 1,
+    "key_phrase": "discard Flowspec accepted"
+  },
+  {
+    "question": "According to Groovy Baby! CloudFlare's London Data Center Now Online | Cloudflare Blog, what is the current status of AMS Paris CDG?",
+    "expected_doc_id": "blog-groovy-baby-cloudflares-london-data-center-no",
+    "expected_page_number": 1,
+    "key_phrase": "AMS Paris CDG"
+  },
+  {
+    "question": "According to Using the Cache API \u00b7 Cloudflare Workers docs, what is the current status of pyodide ffi import?",
+    "expected_doc_id": "docs-workers-examples-cache-api",
+    "expected_page_number": 1,
+    "key_phrase": "pyodide ffi import"
+  },
+  {
+    "question": "What number does Thoughts on the AWS outage: making the cloud more resilient to failure | Cloudflare Blog give for graceful failover didn?",
+    "expected_doc_id": "blog-thoughts-on-the-aws-outage-the-failure-charac",
+    "expected_page_number": 3,
+    "key_phrase": "graceful failover didn"
+  },
+  {
+    "question": "According to Cloudflare and E-commerce sites | Cloudflare Blog, what is the current status of card fraud customizing?",
+    "expected_doc_id": "blog-cloudflare-and-e-commerce-sites",
+    "expected_page_number": 1,
+    "key_phrase": "card fraud customizing"
+  },
+  {
+    "question": "According to Today's System-Wide Upgrade | Cloudflare Blog, what is the current status of lunch began migrating?",
+    "expected_doc_id": "blog-todays-system-wide-upgrade",
+    "expected_page_number": 1,
+    "key_phrase": "lunch began migrating"
+  },
+  {
+    "question": "According to OCSP Stapling: How CloudFlare Just Made SSL 30% Faster | Cloudflare Blog, what is the current status of CA 407ms OCSP?",
+    "expected_doc_id": "blog-ocsp-stapling-how-cloudflare-just-made-ssl-30",
+    "expected_page_number": 1,
+    "key_phrase": "CA 407ms OCSP"
+  },
+  {
+    "question": "What does boto3 \u00b7 Cloudflare R2 docs say about png header enforced?",
+    "expected_doc_id": "docs-r2-examples-aws-boto3",
+    "expected_page_number": 2,
+    "key_phrase": "png header enforced"
+  },
+  {
+    "question": "What does Use event notification to summarize PDF files on upload \u00b7 Cloudflare R2 docs say about px cursor pointer?",
+    "expected_doc_id": "docs-r2-tutorials-summarize-pdf",
+    "expected_page_number": 1,
+    "key_phrase": "px cursor pointer"
+  },
+  {
+    "question": "What does Human-in-the-loop knowledge base updates \u00b7 Cloudflare AI Search docs say about convertToModelMessages stepCountIs streamText?",
+    "expected_doc_id": "docs-ai-search-how-to-human-in-the-loop-knowledge-base",
+    "expected_page_number": 3,
+    "key_phrase": "convertToModelMessages stepCountIs streamText"
+  },
+  {
+    "question": "According to App: Infolinks Earns You Money With In-Text Ads | Cloudflare Blog, what is the current status of overcome banner blindness?",
+    "expected_doc_id": "blog-app-infolinks-earns-you-money-with-in-text-ad",
+    "expected_page_number": 1,
+    "key_phrase": "overcome banner blindness"
+  },
+  {
+    "question": "According to EveryDNS Magic Data Liberation Bookmarklet | Cloudflare Blog, what is the current status of Liberation Bookmarklet First?",
+    "expected_doc_id": "blog-everydns-magic-data-liberation-tool-redux",
+    "expected_page_number": 1,
+    "key_phrase": "Liberation Bookmarklet First"
+  },
+  {
+    "question": "What number does CloudFlare Product Updates: Updated WordPress Plugin, Invoices & New CloudFlare IP addresses | Cloudflare Blog give for United Kingdom Dome9?",
+    "expected_doc_id": "blog-cloudflare-product-updates-updated-wordpress",
+    "expected_page_number": 1,
+    "key_phrase": "United Kingdom Dome9"
+  },
+  {
+    "question": "What number does Build a Staff Directory Application \u00b7 Cloudflare D1 docs give for fileBuffer httpMetadata contentType?",
+    "expected_doc_id": "docs-d1-tutorials-build-a-staff-directory-app",
+    "expected_page_number": 4,
+    "key_phrase": "fileBuffer httpMetadata contentType"
+  },
+  {
+    "question": "According to David Gardner on new acquisitions and announcements | Cloudflare Blog, what is the current status of Endurance acquired HostGator?",
+    "expected_doc_id": "blog-david-gardner-on-new-acquisitions-and-announc",
+    "expected_page_number": 1,
+    "key_phrase": "Endurance acquired HostGator"
+  },
+  {
+    "question": "According to Introducing Mirage: Automatic Responsive Web Design via Intelligent Image Loading | Cloudflare Blog, what is the current status of 1000px x 1000px?",
+    "expected_doc_id": "blog-introducing-mirage-intelligent-image-loading",
+    "expected_page_number": 1,
+    "key_phrase": "1000px x 1000px"
+  },
+  {
+    "question": "According to How the CloudFlare Team Got Into Bondage (It's Not What You Think) | Cloudflare Blog, what is the current status of ifconfig eth0 downifconfig?",
+    "expected_doc_id": "blog-how-the-cloudflare-team-got-into-bondage-its",
+    "expected_page_number": 3,
+    "key_phrase": "ifconfig eth0 downifconfig"
+  },
+  {
+    "question": "According to APIs \u00b7 Cloudflare Workers docs, what is the current status of snippet const secretValue?",
+    "expected_doc_id": "docs-workers-configuration-integrations-apis",
+    "expected_page_number": 1,
+    "key_phrase": "snippet const secretValue"
+  },
+  {
+    "question": "What number does Introducing Page Rules: Advanced Caching (Including Configurable HTML Caching) | Cloudflare Blog give for string Alternatively ignoring?",
+    "expected_doc_id": "blog-introducing-pagerules-advanced-caching",
+    "expected_page_number": 2,
+    "key_phrase": "string Alternatively ignoring"
+  },
+  {
+    "question": "According to CloudFlare's 2012: Happy New Year! | Cloudflare Blog, what is the current status of 691 532 490?",
+    "expected_doc_id": "blog-cloudflares-2012",
+    "expected_page_number": 1,
+    "key_phrase": "691 532 490"
+  },
+  {
+    "question": "How does Mladen Stojanovic from Atomia on hosting trends, challenges and what\u2019s next | Cloudflare Blog describe Dear Future Astronaut?",
+    "expected_doc_id": "blog-mladen-stojanovic-from-atomia-on-hosting-tren",
+    "expected_page_number": 1,
+    "key_phrase": "Dear Future Astronaut"
+  },
+  {
+    "question": "According to Workers Logs \u00b7 Cloudflare Workers docs, what is the current status of Monthly Costs Formula?",
+    "expected_doc_id": "docs-workers-observability-logs-workers-logs",
+    "expected_page_number": 3,
+    "key_phrase": "Monthly Costs Formula"
+  },
+  {
+    "question": "What does Examples \u00b7 Cloudflare Workers docs say about LEADERBOARD DurableObjectNamespace Leaderboard?",
+    "expected_doc_id": "docs-workers-cache-examples",
+    "expected_page_number": 6,
+    "key_phrase": "LEADERBOARD DurableObjectNamespace Leaderboard"
+  },
+  {
+    "question": "What number does Maxim Weinstein - Infected computers can compromise a website | Cloudflare Blog give for clean Maxim explains?",
+    "expected_doc_id": "blog-maxim-weinstein-infected-computers-can-compro",
+    "expected_page_number": 1,
+    "key_phrase": "clean Maxim explains"
+  },
+  {
+    "question": "What does Migrate from Vercel to Cloudflare Workers \u00b7 Cloudflare Workers docs say about 31536000 immutable SvelteKit?",
+    "expected_doc_id": "docs-workers-static-assets-migration-guides-vercel-to-workers",
+    "expected_page_number": 1,
+    "key_phrase": "31536000 immutable SvelteKit"
+  },
+  {
+    "question": "According to Today's Outage Post Mortem | Cloudflare Blog, what is the current status of upstreams Future Prevention?",
+    "expected_doc_id": "blog-todays-outage-post-mortem",
+    "expected_page_number": 1,
+    "key_phrase": "upstreams Future Prevention"
+  },
+  {
+    "question": "According to Integrations \u00b7 Cloudflare Workers docs, what is the current status of extend TestFixtures WorkerFixtures?",
+    "expected_doc_id": "docs-workers-testing-test-harness-integrations",
+    "expected_page_number": 2,
+    "key_phrase": "extend TestFixtures WorkerFixtures"
+  },
+  {
+    "question": "What number does StringDecoder \u00b7 Cloudflare Workers docs give for 0xe2 0x82 0xac?",
+    "expected_doc_id": "docs-workers-runtime-apis-nodejs-string-decoder",
+    "expected_page_number": 1,
+    "key_phrase": "0xe2 0x82 0xac"
+  },
+  {
+    "question": "What does Workers binding \u00b7 Cloudflare AI Search docs say about eq ne gt?",
+    "expected_doc_id": "docs-ai-search-api-search-workers-binding",
+    "expected_page_number": 1,
+    "key_phrase": "eq ne gt"
+  },
+  {
+    "question": "What does Single Page App (SPA) shell with bootstrap data \u00b7 Cloudflare Workers docs say about setAttribute nonce nonce?",
+    "expected_doc_id": "docs-workers-examples-spa-shell",
+    "expected_page_number": 4,
+    "key_phrase": "setAttribute nonce nonce"
+  },
+  {
+    "question": "How does Mars Attacks! | Cloudflare Blog describe 114 212 832?",
+    "expected_doc_id": "blog-mars-attacks",
+    "expected_page_number": 1,
+    "key_phrase": "114 212 832"
+  },
+  {
+    "question": "What does Deploy an Express.js application on Cloudflare Workers \u00b7 Cloudflare Workers docs say about httpServerHandler integrates Express?",
+    "expected_doc_id": "docs-workers-tutorials-deploy-an-express-app",
+    "expected_page_number": 2,
+    "key_phrase": "httpServerHandler integrates Express"
+  },
+  {
+    "question": "What does Examples \u00b7 Cloudflare Workers docs say about forwarded props userId?",
+    "expected_doc_id": "docs-workers-cache-examples",
+    "expected_page_number": 3,
+    "key_phrase": "forwarded props userId"
+  },
+  {
+    "question": "What does CloudFlare Has Been Nominated for a Crunchie! | Cloudflare Blog say about vote OTo0OQ Finalists?",
+    "expected_doc_id": "blog-cloudflare-has-been-nominated-for-a-crunchie",
+    "expected_page_number": 1,
+    "key_phrase": "vote OTo0OQ Finalists"
+  },
+  {
+    "question": "How does Updating Policies | Cloudflare Blog describe caused endless confusion?",
+    "expected_doc_id": "blog-updating-policies",
+    "expected_page_number": 1,
+    "key_phrase": "caused endless confusion"
+  },
+  {
+    "question": "What number does TanStack Start \u00b7 Cloudflare Workers docs give for getFile createServerFn validator?",
+    "expected_doc_id": "docs-workers-framework-guides-web-apps-tanstack-start",
+    "expected_page_number": 3,
+    "key_phrase": "getFile createServerFn validator"
+  },
+  {
+    "question": "What number does The many sites of CloudFlare | Cloudflare Blog give for our blog testimonials?",
+    "expected_doc_id": "blog-the-many-sites-of-cloudflare",
+    "expected_page_number": 2,
+    "key_phrase": "our blog testimonials"
+  },
+  {
+    "question": "What does Avoid Losing SEO Link Juice to Traditional CDNs | Cloudflare Blog say about search engines backlinks?",
+    "expected_doc_id": "blog-losing-seo-link-juice-to-traditional-cdns",
+    "expected_page_number": 1,
+    "key_phrase": "search engines backlinks"
+  },
+  {
+    "question": "What does Never Deal With DNS Propagation Again | Cloudflare Blog say about seemingly endless wait?",
+    "expected_doc_id": "blog-never-deal-with-dns-propagation-again",
+    "expected_page_number": 1,
+    "key_phrase": "seemingly endless wait"
+  },
+  {
+    "question": "What does Changelog \u00b7 Cloudflare Workers AI docs say about Khmer Lao Malay?",
+    "expected_doc_id": "docs-workers-ai-changelog",
+    "expected_page_number": 2,
+    "key_phrase": "Khmer Lao Malay"
+  },
+  {
+    "question": "How does CloudFlare meetup in Hong Kong | Cloudflare Blog describe roadmap Afterwards Tom?",
+    "expected_doc_id": "blog-cloudflare-meetup-in-hong-kong",
+    "expected_page_number": 1,
+    "key_phrase": "roadmap Afterwards Tom"
+  },
+  {
+    "question": "According to General commands \u00b7 Cloudflare Workers docs, what is the current status of bash zsh fish?",
+    "expected_doc_id": "docs-workers-wrangler-commands-general",
+    "expected_page_number": 5,
+    "key_phrase": "bash zsh fish"
+  },
+  {
+    "question": "How does TODAY Show Traffic Spike No Problem For Khataland | Cloudflare Blog describe TV segment airs?",
+    "expected_doc_id": "blog-today-show-traffic-spike-no-problem-for-khata",
+    "expected_page_number": 1,
+    "key_phrase": "TV segment airs"
+  },
+  {
+    "question": "What number does Pages Plugins \u00b7 Cloudflare Pages docs give for GraphQL hCaptcha Honeycomb?",
+    "expected_doc_id": "docs-pages-functions-plugins",
+    "expected_page_number": 1,
+    "key_phrase": "GraphQL hCaptcha Honeycomb"
+  },
+  {
+    "question": "What does DNSChanger Update: Nearly 4% of Infections Already Detected | Cloudflare Blog say about estimated infected computers?",
+    "expected_doc_id": "blog-dnschanger-update-nearly-4-of-infections-alre",
+    "expected_page_number": 1,
+    "key_phrase": "estimated infected computers"
+  },
+  {
+    "question": "According to Build an AI Image Generator Playground (Part 1) \u00b7 Cloudflare Workers AI docs, what is the current status of Image Generator Playground?",
+    "expected_doc_id": "docs-workers-ai-guides-tutorials-image-generation-playground-image-generator-flux",
+    "expected_page_number": 1,
+    "key_phrase": "Image Generator Playground"
+  },
+  {
+    "question": "How does How to Tell How Well Railgun Is Working for Your Site | Cloudflare Blog describe Claire Chrome Plugin?",
+    "expected_doc_id": "blog-how-to-tell-how-well-railgun-is-working-for-y",
+    "expected_page_number": 2,
+    "key_phrase": "Claire Chrome Plugin"
+  },
+  {
+    "question": "What number does Load Balancing without Load Balancers | Cloudflare Blog give for schemes Unicast Multicast?",
+    "expected_doc_id": "blog-cloudflares-architecture-eliminating-single-p",
+    "expected_page_number": 1,
+    "key_phrase": "schemes Unicast Multicast"
+  },
+  {
+    "question": "How does Workflows \u00b7 Cloudflare Workers docs describe registered rollback handlers?",
+    "expected_doc_id": "docs-workers-wrangler-commands-workflows",
+    "expected_page_number": 3,
+    "key_phrase": "registered rollback handlers"
+  },
+  {
+    "question": "What does Supported models \u00b7 Cloudflare AI Search docs say about 024 32 768?",
+    "expected_doc_id": "docs-ai-search-configuration-models-supported-models",
+    "expected_page_number": 1,
+    "key_phrase": "024 32 768"
+  },
+  {
+    "question": "What number does Deploy Hooks \u00b7 Cloudflare Pages docs give for platforms Contentful Contentful?",
+    "expected_doc_id": "docs-pages-configuration-deploy-hooks",
+    "expected_page_number": 1,
+    "key_phrase": "platforms Contentful Contentful"
+  },
+  {
+    "question": "According to Seattle: CloudFlare's 17th Data Center | Cloudflare Blog, what is the current status of Pacific Northwest USA?",
+    "expected_doc_id": "blog-seattle-cloudflares-17th-data-center",
+    "expected_page_number": 1,
+    "key_phrase": "Pacific Northwest USA"
+  },
+  {
+    "question": "What does The bandwidth of a Boeing 747 and its impact on web browsing | Cloudflare Blog say about 1TB carried divided?",
+    "expected_doc_id": "blog-the-bandwidth-of-a-boeing-747-and-its-impact",
+    "expected_page_number": 1,
+    "key_phrase": "1TB carried divided"
+  },
+  {
+    "question": "How does New Pages | Cloudflare Blog describe approximately realtime view?",
+    "expected_doc_id": "blog-new-pages",
+    "expected_page_number": 1,
+    "key_phrase": "approximately realtime view"
+  },
+  {
+    "question": "What does Cloudflare Tips: Troubleshooting Common Problems | Cloudflare Blog say about 73 146 94?",
+    "expected_doc_id": "blog-cloudflare-tips-troubleshooting-common-problems",
+    "expected_page_number": 1,
+    "key_phrase": "73 146 94"
+  },
+  {
+    "question": "What number does TanStack Start \u00b7 Cloudflare Workers docs give for MyWorkflow extends WorkflowEntrypoint?",
+    "expected_doc_id": "docs-workers-framework-guides-web-apps-tanstack-start",
+    "expected_page_number": 1,
+    "key_phrase": "MyWorkflow extends WorkflowEntrypoint"
+  },
+  {
+    "question": "How does Workers API reference \u00b7 Cloudflare R2 docs describe R2GetOptions onlyIf R2Conditional?",
+    "expected_doc_id": "docs-r2-api-workers-workers-api-reference",
+    "expected_page_number": 2,
+    "key_phrase": "R2GetOptions onlyIf R2Conditional"
+  },
+  {
+    "question": "How does Efficiently compressing dynamically generated web content | Cloudflare Blog describe outperforms gzip enormously?",
+    "expected_doc_id": "blog-efficiently-compressing-dynamically-generated-53805",
+    "expected_page_number": 5,
+    "key_phrase": "outperforms gzip enormously"
+  },
+  {
+    "question": "What number does melotts (MyShell) \u00b7 Cloudflare AI docs \u00b7 Cloudflare Workers AI docs give for contentType audio mpeg?",
+    "expected_doc_id": "docs-workers-ai-models-melotts",
+    "expected_page_number": 1,
+    "key_phrase": "contentType audio mpeg"
+  },
+  {
+    "question": "According to Workers roles and permissions \u00b7 Cloudflare Workers docs, what is the current status of CI CD pipelines?",
+    "expected_doc_id": "docs-workers-authorization-workers",
+    "expected_page_number": 1,
+    "key_phrase": "CI CD pipelines"
+  },
+  {
+    "question": "What does fs \u00b7 Cloudflare Workers docs say about fs watchFile operations?",
+    "expected_doc_id": "docs-workers-runtime-apis-nodejs-fs",
+    "expected_page_number": 2,
+    "key_phrase": "fs watchFile operations"
+  },
+  {
+    "question": "According to Migrate to Vitest plugin \u00b7 Cloudflare Workers docs, what is the current status of leaves config subpaths?",
+    "expected_doc_id": "docs-workers-testing-vitest-integration-migration-guides-migrate-to-vitest-plugin",
+    "expected_page_number": 1,
+    "key_phrase": "leaves config subpaths"
+  },
+  {
+    "question": "What number does When the Attackers Name Malware After You, You Know You're Doing Something Right | Cloudflare Blog give for MXLogic MessageLabs CloudMark?",
+    "expected_doc_id": "blog-when-the-bad-guys-name-malware-after-you-you",
+    "expected_page_number": 2,
+    "key_phrase": "MXLogic MessageLabs CloudMark"
+  },
+  {
+    "question": "What number does Introducing CloudFlare's Automatic IPv6 Gateway | Cloudflare Blog give for www ipv6 yoursite?",
+    "expected_doc_id": "blog-introducing-cloudflares-automatic-ipv6-gatewa",
+    "expected_page_number": 1,
+    "key_phrase": "www ipv6 yoursite"
+  },
+  {
+    "question": "How does Taming BEAST: Faster, Safer SSL now on CloudFlare | Cloudflare Blog describe RC4 cypher suites?",
+    "expected_doc_id": "blog-taming-beast-better-ssl-now-available-across",
+    "expected_page_number": 1,
+    "key_phrase": "RC4 cypher suites"
+  },
+  {
+    "question": "According to Migrate SvelteKit from Vercel to Cloudflare Workers \u00b7 Cloudflare Workers docs, what is the current status of csr sveltekit prefetch?",
+    "expected_doc_id": "docs-workers-static-assets-migration-guides-vercel-to-workers-sveltekit",
+    "expected_page_number": 2,
+    "key_phrase": "csr sveltekit prefetch"
+  },
+  {
+    "question": "How does Alex Danyluk from Parallels on integrating CloudFlare - \u201cWhat your company is offering is awesome\u201d | Cloudflare Blog describe ISV SaaS Alliances?",
+    "expected_doc_id": "blog-alex-danyluk-from-parallels-on-integrating-cloudflare-what-your-compan-317fe3c2",
+    "expected_page_number": 1,
+    "key_phrase": "ISV SaaS Alliances"
+  },
+  {
+    "question": "According to Tutorial - React SPA with an API \u00b7 Cloudflare Workers docs, what is the current status of compilerOptions tsBuildInfoFile node?",
+    "expected_doc_id": "docs-workers-vite-plugin-tutorial",
+    "expected_page_number": 1,
+    "key_phrase": "compilerOptions tsBuildInfoFile node"
+  },
+  {
+    "question": "What number does Stop worrying about Time To First Byte (TTFB) | Cloudflare Blog give for Dragons 2nd Edition?",
+    "expected_doc_id": "blog-ttfb-time-to-first-byte-considered-meaningles",
+    "expected_page_number": 1,
+    "key_phrase": "Dragons 2nd Edition"
+  },
+  {
+    "question": "What number does Local development \u00b7 Cloudflare R2 docs give for ListBuckets HeadBucket ListObjects?",
+    "expected_doc_id": "docs-r2-local-development",
+    "expected_page_number": 3,
+    "key_phrase": "ListBuckets HeadBucket ListObjects"
+  },
+  {
+    "question": "What number does Conditional operations \u00b7 Cloudflare R2 docs give for ambiguous PutObject Retry?",
+    "expected_doc_id": "docs-r2-api-s3-conditional-operations",
+    "expected_page_number": 2,
+    "key_phrase": "ambiguous PutObject Retry"
+  },
+  {
+    "question": "What does Deploy Hooks \u00b7 Cloudflare Workers docs say about Strapi Storyblok DatoCMS?",
+    "expected_doc_id": "docs-workers-ci-cd-builds-deploy-hooks",
+    "expected_page_number": 1,
+    "key_phrase": "Strapi Storyblok DatoCMS"
+  },
+  {
+    "question": "What number does embeddinggemma-300m (Google) \u00b7 Cloudflare AI docs \u00b7 Cloudflare Workers AI docs give for Gemini models EmbeddingGemma?",
+    "expected_doc_id": "docs-workers-ai-models-embeddinggemma-300m",
+    "expected_page_number": 1,
+    "key_phrase": "Gemini models EmbeddingGemma"
+  },
+  {
+    "question": "According to How Syria Turned Off the Internet | Cloudflare Blog, what is the current status of therefore deeply troubling?",
+    "expected_doc_id": "blog-how-syria-turned-off-the-internet",
+    "expected_page_number": 2,
+    "key_phrase": "therefore deeply troubling"
+  },
+  {
+    "question": "How does Cloudflare Tips: Top Tips when activating through a Cloudflare Hosting Partner | Cloudflare Blog describe spam SQL injection?",
+    "expected_doc_id": "blog-cloudflare-tips-top-tips-when-activating-thro",
+    "expected_page_number": 2,
+    "key_phrase": "spam SQL injection"
+  },
+  {
+    "question": "According to Debugging \u00b7 Cloudflare Workers docs, what is the current status of attach websocketAddress ws?",
+    "expected_doc_id": "docs-workers-vite-plugin-reference-debugging",
+    "expected_page_number": 1,
+    "key_phrase": "attach websocketAddress ws"
+  },
+  {
+    "question": "What number does CloudFlare (aka. KickassDNS) | Cloudflare Blog give for 163 86 62?",
+    "expected_doc_id": "blog-cloudflare-aka-kickassdns",
+    "expected_page_number": 1,
+    "key_phrase": "163 86 62"
+  },
+  {
+    "question": "What does Keeping passwords safe by staying up to date | Cloudflare Blog say about 955 582 595?",
+    "expected_doc_id": "blog-keeping-passwords-safe-by-staying-up-to-date",
+    "expected_page_number": 1,
+    "key_phrase": "955 582 595"
+  },
+  {
+    "question": "What does How to Launch a 65Gbps DDoS, and How to Stop One | Cloudflare Blog say about lawyers Rental prices?",
+    "expected_doc_id": "blog-65gbps-ddos-no-problem",
+    "expected_page_number": 1,
+    "key_phrase": "lawyers Rental prices"
+  },
+  {
+    "question": "According to Builds API reference \u00b7 Cloudflare Workers docs, what is the current status of GITHUB USERNAME jq?",
+    "expected_doc_id": "docs-workers-ci-cd-builds-api-reference",
+    "expected_page_number": 1,
+    "key_phrase": "GITHUB USERNAME jq"
+  },
+  {
+    "question": "What number does Workers roles and permissions \u00b7 Cloudflare Workers docs give for Telemetry Edit Editor?",
+    "expected_doc_id": "docs-workers-authorization-workers",
+    "expected_page_number": 2,
+    "key_phrase": "Telemetry Edit Editor"
+  },
+  {
+    "question": "According to Cloudflare and E-commerce sites | Cloudflare Blog, what is the current status of Best Practices eCommerce?",
+    "expected_doc_id": "blog-cloudflare-and-e-commerce-sites",
+    "expected_page_number": 2,
+    "key_phrase": "Best Practices eCommerce"
+  },
+  {
+    "question": "What does Non-Latin/UTF8 International Domains (IDNs) Now Fully Supported | Cloudflare Blog say about Costa Rican subsidiary?",
+    "expected_doc_id": "blog-non-latinutf8-domains-now-fully-supported",
+    "expected_page_number": 1,
+    "key_phrase": "Costa Rican subsidiary"
+  },
+  {
+    "question": "How does Examples \u00b7 Cloudflare Workers docs describe whichever entrypoint owns?",
+    "expected_doc_id": "docs-workers-cache-examples",
+    "expected_page_number": 10,
+    "key_phrase": "whichever entrypoint owns"
+  },
+  {
+    "question": "What number does It's the Most Wonderful Time of the Year...For Ecommerce Sites | Cloudflare Blog give for Snow Destinations Caribbean?",
+    "expected_doc_id": "blog-its-the-most-wonderful-time-of-the-yearfor-ec",
+    "expected_page_number": 2,
+    "key_phrase": "Snow Destinations Caribbean"
+  },
+  {
+    "question": "According to Making Edge Side Includes (ESI) Automatic and Easy | Cloudflare Blog, what is the current status of optimally never wasting?",
+    "expected_doc_id": "blog-making-edge-side-includes-esi-automatic-and-e",
+    "expected_page_number": 1,
+    "key_phrase": "optimally never wasting"
+  },
+  {
+    "question": "What does Haileo App Matches Contextual Ads to Images and Video | Cloudflare Blog say about videos Contextually matching?",
+    "expected_doc_id": "blog-haileo-app-matches-contextual-ads-to-images-a",
+    "expected_page_number": 1,
+    "key_phrase": "videos Contextually matching"
+  },
+  {
+    "question": "What does General commands \u00b7 Cloudflare Workers docs say about Grant RFC 8628?",
+    "expected_doc_id": "docs-workers-wrangler-commands-general",
+    "expected_page_number": 1,
+    "key_phrase": "Grant RFC 8628"
+  },
+  {
+    "question": "What number does Toronto, Canada: CloudFlare's 18th Data Center | Cloudflare Blog give for Federal Communication Commission?",
+    "expected_doc_id": "blog-toronto-cloudflares-18th-data-center",
+    "expected_page_number": 1,
+    "key_phrase": "Federal Communication Commission"
+  },
+  {
+    "question": "According to The DDoS That Knocked Spamhaus Offline (And How We Mitigated It) | Cloudflare Blog, what is the current status of collectively approximately 75Gbps?",
+    "expected_doc_id": "blog-the-ddos-that-knocked-spamhaus-offline-and-ho",
+    "expected_page_number": 2,
+    "key_phrase": "collectively approximately 75Gbps"
+  },
+  {
+    "question": "According to Cribs: CloudFlare London Edition | Cloudflare Blog, what is the current status of restaurant sports club?",
+    "expected_doc_id": "blog-cloudflare-london-is-open-for-business",
+    "expected_page_number": 1,
+    "key_phrase": "restaurant sports club"
+  },
+  {
+    "question": "What number does OpenNext adapter \u00b7 Cloudflare Workers docs give for Partial Prerendering PPR?",
+    "expected_doc_id": "docs-workers-framework-guides-web-apps-opennext",
+    "expected_page_number": 1,
+    "key_phrase": "Partial Prerendering PPR"
+  },
+  {
+    "question": "According to Introducing ScrapeShield: Discover, Defend & Deter Content Scraping | Cloudflare Blog, what is the current status of Defend Deter ScrapeShield?",
+    "expected_doc_id": "blog-introducing-scrapeshield-discover-defend-dete",
+    "expected_page_number": 1,
+    "key_phrase": "Defend Deter ScrapeShield"
+  },
+  {
+    "question": "According to Conditional operations \u00b7 Cloudflare R2 docs, what is the current status of aborted 409 ObjectLockedByBucketPolicy?",
+    "expected_doc_id": "docs-r2-api-s3-conditional-operations",
+    "expected_page_number": 3,
+    "key_phrase": "aborted 409 ObjectLockedByBucketPolicy"
+  },
+  {
+    "question": "What number does CloudFlare: Fastest Free DNS, Among Fastest DNS Period | Cloudflare Blog give for dubbed RRDNS scheduled?",
+    "expected_doc_id": "blog-cloudflare-fastest-free-dns-among-fastest-dns",
+    "expected_page_number": 1,
+    "key_phrase": "dubbed RRDNS scheduled"
+  },
+  {
+    "question": "According to WSJ: CloudFlare Named Most Innovative Internet & Networking Company, Second Year in a Row | Cloudflare Blog, what is the current status of Wall Street Journal?",
+    "expected_doc_id": "blog-wsj-cloudflare-named-most-innovative-internet",
+    "expected_page_number": 2,
+    "key_phrase": "Wall Street Journal"
+  },
+  {
+    "question": "According to Saturday Night Fever: Layer 7 attacks against CloudFlare sites | Cloudflare Blog, what is the current status of Eurovision Song Contest?",
+    "expected_doc_id": "blog-saturday-night-fever-layer-7-attacks-against",
+    "expected_page_number": 2,
+    "key_phrase": "Eurovision Song Contest"
+  },
+  {
+    "question": "What does App: Zoompf Performance Report Helps You Find And Fix Performance Issues | Cloudflare Blog say about report Zoompf crawls?",
+    "expected_doc_id": "blog-app-zoompf-performance-report-helps-you-find",
+    "expected_page_number": 1,
+    "key_phrase": "report Zoompf crawls"
+  },
+  {
+    "question": "What number does Introducing: I'm Under Attack Mode | Cloudflare Blog give for minimizing false positives?",
+    "expected_doc_id": "blog-introducing-im-under-attack-mode",
+    "expected_page_number": 1,
+    "key_phrase": "minimizing false positives"
+  },
+  {
+    "question": "What number does glm-5.3-flash (Zhipu AI) \u00b7 Cloudflare AI docs \u00b7 Cloudflare Workers AI docs give for approaching Claude Opus?",
+    "expected_doc_id": "docs-workers-ai-models-glm-5-3-flash",
+    "expected_page_number": 1,
+    "key_phrase": "approaching Claude Opus"
+  },
+  {
+    "question": "How does Qwik \u00b7 Cloudflare Pages docs describe deployed your Qwik?",
+    "expected_doc_id": "docs-pages-framework-guides-deploy-a-qwik-site",
+    "expected_page_number": 2,
+    "key_phrase": "deployed your Qwik"
+  },
+  {
+    "question": "According to Facebook Bug Redirects the Web Through Javascript Widget Error | Cloudflare Blog, what is the current status of Bj rn Kaiser?",
+    "expected_doc_id": "blog-facebook-bug-takes-down-much-of-the-web-cloud",
+    "expected_page_number": 1,
+    "key_phrase": "Bj rn Kaiser"
+  },
+  {
+    "question": "What number does Introducing ScrapeShield: Discover, Defend & Deter Content Scraping | Cloudflare Blog give for Prince Subscribe?",
+    "expected_doc_id": "blog-introducing-scrapeshield-discover-defend-dete",
+    "expected_page_number": 2,
+    "key_phrase": "Prince Subscribe"
+  },
+  {
+    "question": "How does Workers Binding \u00b7 Cloudflare Workers AI docs describe Promise ConversionResult ConversionResult?",
+    "expected_doc_id": "docs-workers-ai-features-markdown-conversion-usage-binding",
+    "expected_page_number": 1,
+    "key_phrase": "Promise ConversionResult ConversionResult"
+  },
+  {
+    "question": "How does CloudFlare at Parallels Summit | Cloudflare Blog describe Gaylord Palms Resort?",
+    "expected_doc_id": "blog-cloudflare-at-parallels-summit",
+    "expected_page_number": 1,
+    "key_phrase": "Gaylord Palms Resort"
+  },
+  {
+    "question": "What does Build a QR code generator \u00b7 Cloudflare Workers docs say about FileReader reader onloadend?",
+    "expected_doc_id": "docs-workers-tutorials-build-a-qr-code-generator",
+    "expected_page_number": 2,
+    "key_phrase": "FileReader reader onloadend"
+  },
+  {
+    "question": "What does TanStack Start \u00b7 Cloudflare Workers docs say about verifyUser createServerFn validator?",
+    "expected_doc_id": "docs-workers-framework-guides-web-apps-tanstack-start",
+    "expected_page_number": 2,
+    "key_phrase": "verifyUser createServerFn validator"
+  },
+  {
+    "question": "How does The Wednesday Witching Hour: CloudFlare DoS Statistics | Cloudflare Blog describe range Carpet Bombing?",
+    "expected_doc_id": "blog-the-wednesday-witching-hour-cloudflare-dos-st",
+    "expected_page_number": 1,
+    "key_phrase": "range Carpet Bombing"
+  },
+  {
+    "question": "According to qwq-32b (Qwen) \u00b7 Cloudflare AI docs \u00b7 Cloudflare Workers AI docs, what is the current status of discourage repetition frequency?",
+    "expected_doc_id": "docs-workers-ai-models-qwq-32b",
+    "expected_page_number": 1,
+    "key_phrase": "discourage repetition frequency"
+  },
+  {
+    "question": "According to Gabriel Fontaine on keeping customers happy and what\u2019s new at Verio | Cloudflare Blog, what is the current status of wholly owned subsidiary?",
+    "expected_doc_id": "blog-gabriel-fontaine-on-keeping-customers-happy-a-87129",
+    "expected_page_number": 1,
+    "key_phrase": "wholly owned subsidiary"
+  },
+  {
+    "question": "What number does Cloudflare tips: Speeding up your WordPress blog | Cloudflare Blog give for W3TC W3 Total?",
+    "expected_doc_id": "blog-cloudflare-tips-speeding-up-your-wordpress-bl",
+    "expected_page_number": 1,
+    "key_phrase": "W3TC W3 Total"
+  },
+  {
+    "question": "According to Local development \u00b7 Cloudflare R2 docs, what is the current status of s3 credentials accessKeyId?",
+    "expected_doc_id": "docs-r2-local-development",
+    "expected_page_number": 2,
+    "key_phrase": "s3 credentials accessKeyId"
+  },
+  {
+    "question": "What number does Keeping passwords safe by staying up to date | Cloudflare Blog give for receive notifications?",
+    "expected_doc_id": "blog-keeping-passwords-safe-by-staying-up-to-date",
+    "expected_page_number": 3,
+    "key_phrase": "receive notifications"
+  },
+  {
+    "question": "How does Dome9 + CloudFlare = Combined Security For Your Website and Web Server | Cloudflare Blog describe 8080 phpMyAdmin Closed?",
+    "expected_doc_id": "blog-dome9-cloudflare-combined-security-for-your-w",
+    "expected_page_number": 1,
+    "key_phrase": "8080 phpMyAdmin Closed"
+  },
+  {
+    "question": "What does fs \u00b7 Cloudflare Workers docs say about abcde 66 ghi?",
+    "expected_doc_id": "docs-workers-runtime-apis-nodejs-fs",
+    "expected_page_number": 1,
+    "key_phrase": "abcde 66 ghi"
+  },
+  {
+    "question": "According to Get Started \u00b7 Cloudflare Workers docs, what is the current status of scheduledTime lastScheduledController scheduledTime?",
+    "expected_doc_id": "docs-workers-testing-miniflare-get-started",
+    "expected_page_number": 1,
+    "key_phrase": "scheduledTime lastScheduledController scheduledTime"
+  },
+  {
+    "question": "What does Efficiently compressing dynamically generated web content | Cloudflare Blog say about 2002 RFC 3229?",
+    "expected_doc_id": "blog-efficiently-compressing-dynamically-generated-53805",
+    "expected_page_number": 4,
+    "key_phrase": "2002 RFC 3229"
+  },
+  {
+    "question": "How does Migrate SvelteKit from Vercel to Cloudflare Workers \u00b7 Cloudflare Workers docs describe authenticated endpoint Prerendered?",
+    "expected_doc_id": "docs-workers-static-assets-migration-guides-vercel-to-workers-sveltekit",
+    "expected_page_number": 3,
+    "key_phrase": "authenticated endpoint Prerendered"
+  },
+  {
+    "question": "How does CloudFlare Works with GlobalSign to Make SSL Faster Across the Web | Cloudflare Blog describe CRL Certificate Revocation?",
+    "expected_doc_id": "blog-cloudflare-works-with-globalsign-to-make-ssl",
+    "expected_page_number": 1,
+    "key_phrase": "CRL Certificate Revocation"
+  },
+  {
+    "question": "What does Single Page App (SPA) shell with bootstrap data \u00b7 Cloudflare Workers docs say about favicon ico robots?",
+    "expected_doc_id": "docs-workers-examples-spa-shell",
+    "expected_page_number": 2,
+    "key_phrase": "favicon ico robots"
+  },
+  {
+    "question": "What does Human-in-the-loop knowledge base updates \u00b7 Cloudflare AI Search docs say about reject executionId seq?",
+    "expected_doc_id": "docs-ai-search-how-to-human-in-the-loop-knowledge-base",
+    "expected_page_number": 5,
+    "key_phrase": "reject executionId seq"
+  },
+  {
+    "question": "According to Enabling Google Analytics on Your WordPress.com Blog | Cloudflare Blog, what is the current status of OneFortyWines com Yay?",
+    "expected_doc_id": "blog-enabling-google-analytics-on-wordpress-blog",
+    "expected_page_number": 1,
+    "key_phrase": "OneFortyWines com Yay"
+  },
+  {
+    "question": "What does Commands - Wrangler \u00b7 Cloudflare Workers docs say about Tunnel Vectorize VPC?",
+    "expected_doc_id": "docs-workers-wrangler-commands",
+    "expected_page_number": 1,
+    "key_phrase": "Tunnel Vectorize VPC"
+  },
+  {
+    "question": "What number does The Four Critical Security Flaws that Resulted in Last Friday's Hack | Cloudflare Blog give for BCCing transactional emails?",
+    "expected_doc_id": "blog-the-four-critical-security-flaws-that-resulte",
+    "expected_page_number": 1,
+    "key_phrase": "BCCing transactional emails"
+  },
+  {
+    "question": "How does Whisper-large-v3-turbo with Cloudflare Workers AI \u00b7 Cloudflare Workers AI docs describe transcribeChunk chunkBuffer ArrayBuffer?",
+    "expected_doc_id": "docs-workers-ai-guides-tutorials-build-a-workers-ai-whisper-with-chunking",
+    "expected_page_number": 2,
+    "key_phrase": "transcribeChunk chunkBuffer ArrayBuffer"
+  },
+  {
+    "question": "How does Continuing the Conversations from Parallels Summit 2013 | Cloudflare Blog describe Superior Magnus Hult?",
+    "expected_doc_id": "blog-leading-experts-weigh-in-on-industry-trends-a-15903",
+    "expected_page_number": 1,
+    "key_phrase": "Superior Magnus Hult"
+  },
+  {
+    "question": "What number does CloudFlare's Miami Data Center Now Online | Cloudflare Blog give for Florida North America?",
+    "expected_doc_id": "blog-cloudflares-miami-data-center-now-online",
+    "expected_page_number": 1,
+    "key_phrase": "Florida North America"
+  },
+  {
+    "question": "What does Examples \u00b7 Cloudflare Workers docs say about leaderboard inside CachedLeaderboard?",
+    "expected_doc_id": "docs-workers-cache-examples",
+    "expected_page_number": 7,
+    "key_phrase": "leaderboard inside CachedLeaderboard"
+  },
+  {
+    "question": "What does Updating Policies | Cloudflare Blog say about recove ring lawyer?",
+    "expected_doc_id": "blog-updating-policies",
+    "expected_page_number": 2,
+    "key_phrase": "recove ring lawyer"
+  },
+  {
+    "question": "According to Workflows \u00b7 Cloudflare Workers docs, what is the current status of describe Describe Workflow?",
+    "expected_doc_id": "docs-workers-wrangler-commands-workflows",
+    "expected_page_number": 1,
+    "key_phrase": "describe Describe Workflow"
+  },
+  {
+    "question": "According to Welcome Citizens of CloudFland! | Cloudflare Blog, what is the current status of milestone today 312M?",
+    "expected_doc_id": "blog-welcome-to-cloudfland",
+    "expected_page_number": 1,
+    "key_phrase": "milestone today 312M"
+  },
+  {
+    "question": "According to Stop worrying about Time To First Byte (TTFB) | Cloudflare Blog, what is the current status of Measuring TTFB remotely?",
+    "expected_doc_id": "blog-ttfb-time-to-first-byte-considered-meaningles",
+    "expected_page_number": 2,
+    "key_phrase": "Measuring TTFB remotely"
+  },
+  {
+    "question": "What number does inkling-2-small (Thinking Machines) \u00b7 Cloudflare AI docs \u00b7 Cloudflare Workers AI docs give for choices array minItems?",
+    "expected_doc_id": "docs-workers-ai-models-inkling-2-small",
+    "expected_page_number": 3,
+    "key_phrase": "choices array minItems"
+  },
+  {
+    "question": "What number does Moog Music: Staying online when Google doodles you | Cloudflare Blog give for celebrates Bob Moog?",
+    "expected_doc_id": "blog-moog-music-staying-online-when-google-doodles",
+    "expected_page_number": 1,
+    "key_phrase": "celebrates Bob Moog"
+  },
+  {
+    "question": "What does Test and debug \u00b7 Cloudflare Workers docs say about accountTag accountTag workersInvocationsAdaptive?",
+    "expected_doc_id": "docs-workers-previews-test-and-debug",
+    "expected_page_number": 1,
+    "key_phrase": "accountTag accountTag workersInvocationsAdaptive"
+  },
+  {
+    "question": "What does Vectorize API \u00b7 Cloudflare Vectorize docs say about vectorExample id 12345?",
+    "expected_doc_id": "docs-vectorize-reference-client-api",
+    "expected_page_number": 2,
+    "key_phrase": "vectorExample id 12345"
+  },
+  {
+    "question": "What number does Examples \u00b7 Cloudflare Workers docs give for outer entrypoint shapes?",
+    "expected_doc_id": "docs-workers-cache-examples",
+    "expected_page_number": 4,
+    "key_phrase": "outer entrypoint shapes"
+  },
+  {
+    "question": "What number does What It's Like to Launch at TechCrunch Disrupt | Cloudflare Blog give for recounted Jevon MacDonald?",
+    "expected_doc_id": "blog-what-its-like-to-launch-at-techcrunch-disrupt",
+    "expected_page_number": 1,
+    "key_phrase": "recounted Jevon MacDonald"
+  },
+  {
+    "question": "According to \"We never sit still\" - Jack Zubarev from Parallels | Cloudflare Blog, what is the current status of COO Division President?",
+    "expected_doc_id": "blog-we-never-sit-still-jack-zubarev-from-parallel-31639",
+    "expected_page_number": 1,
+    "key_phrase": "COO Division President"
+  },
+  {
+    "question": "What does WSJ: CloudFlare Named Most Innovative Internet & Networking Company, Second Year in a Row | Cloudflare Blog say about seriously degrade mobile?",
+    "expected_doc_id": "blog-wsj-cloudflare-named-most-innovative-internet",
+    "expected_page_number": 1,
+    "key_phrase": "seriously degrade mobile"
+  },
+  {
+    "question": "What does Direct Upload \u00b7 Cloudflare Pages docs say about Actions Circle CI?",
+    "expected_doc_id": "docs-pages-get-started-direct-upload",
+    "expected_page_number": 1,
+    "key_phrase": "Actions Circle CI"
+  },
+  {
+    "question": "What number does Modify response \u00b7 Cloudflare Workers docs give for foo bar originalBody?",
+    "expected_doc_id": "docs-workers-examples-modify-response",
+    "expected_page_number": 1,
+    "key_phrase": "foo bar originalBody"
+  },
+  {
+    "question": "How does Geolocation: Weather application \u00b7 Cloudflare Workers docs describe container weatherContent div?",
+    "expected_doc_id": "docs-workers-examples-geolocation-app-weather",
+    "expected_page_number": 2,
+    "key_phrase": "container weatherContent div"
+  }
+]

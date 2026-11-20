@@ -1,0 +1,26 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.10, pytest-9.1.1, pluggy-1.7.0 -- C:\Users\Manas\Downloads\Auto Job Applier\Total Job Application process flow\projects\internal-knowledge-assistant\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Manas\Downloads\Auto Job Applier\Total Job Application process flow
+configfile: pytest.ini
+plugins: anyio-4.16.0
+collecting ... collected 16 items
+
+comms_audit\tests\test_labeling.py::test_supported_when_citation_matches_and_not_stale PASSED [  6%]
+comms_audit\tests\test_labeling.py::test_stale_when_citation_matches_but_page_is_marked_stale PASSED [ 12%]
+comms_audit\tests\test_labeling.py::test_unsupported_missing_page_when_expected_doc_excluded PASSED [ 18%]
+comms_audit\tests\test_labeling.py::test_unsupported_retrieval_miss_when_page_present_but_not_top_ranked PASSED [ 25%]
+comms_audit\tests\test_labeling.py::test_citation_supported_rate_and_failure_breakdown PASSED [ 31%]
+comms_audit\tests\test_qagen.py::test_top_k_keyphrases_are_non_overlapping_and_distinct PASSED [ 37%]
+comms_audit\tests\test_qagen.py::test_top_k_keyphrases_stops_when_passage_runs_out_of_signal PASSED [ 43%]
+comms_audit\tests\test_qagen.py::test_build_items_for_passage_grounds_every_question_in_the_same_passage PASSED [ 50%]
+comms_audit\tests\test_qagen.py::test_generate_candidates_covers_every_passage_exactly_once PASSED [ 56%]
+comms_audit\tests\test_real_corpus_smoke.py::test_manifest_reports_close_to_400_real_pages PASSED [ 62%]
+comms_audit\tests\test_real_corpus_smoke.py::test_build_corpus_excludes_and_overrides_work_together PASSED [ 68%]
+comms_audit\tests\test_real_corpus_smoke.py::test_bm25_index_builds_over_the_real_corpus PASSED [ 75%]
+comms_audit\tests\test_scenarios.py::test_inject_stale_numbers_replaces_distinct_values_and_differs_from_original PASSED [ 81%]
+comms_audit\tests\test_scenarios.py::test_inject_stale_numbers_handles_text_with_no_numbers PASSED [ 87%]
+comms_audit\tests\test_scenarios.py::test_add_heading_puts_phrase_at_the_very_start PASSED [ 93%]
+comms_audit\tests\test_scenarios.py::test_discover_retrieval_misses_only_returns_genuine_mismatches PASSED [100%]
+
+============================= 16 passed in 0.54s ==============================

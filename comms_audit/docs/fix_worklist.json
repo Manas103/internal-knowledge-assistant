@@ -1,0 +1,62 @@
+{
+  "pages_touched": [
+    "blog-translate-your-cloudflare-site",
+    "docs-d1-platform-alpha-migration",
+    "docs-workers-ai-platform-glossary",
+    "docs-workers-configuration-cloudflare-access",
+    "docs-workers-examples-analytics-engine",
+    "docs-workers-local-development-bindings-per-env",
+    "docs-workers-runtime-apis-streams-readablestreambyobreader",
+    "docs-workers-testing-miniflare-core-standards",
+    "docs-workers-wrangler-commands-r2"
+  ],
+  "page_count": 9,
+  "fix_count": 8,
+  "fixes": [
+    {
+      "page_id": "docs-workers-ai-platform-glossary",
+      "kind": "add_missing_page",
+      "description": "Ingested docs-workers-ai-platform-glossary: page was not yet in the index."
+    },
+    {
+      "page_id": "docs-workers-runtime-apis-streams-readablestreambyobreader",
+      "kind": "add_missing_page",
+      "description": "Ingested docs-workers-runtime-apis-streams-readablestreambyobreader: page was not yet in the index."
+    },
+    {
+      "page_id": "docs-workers-examples-analytics-engine",
+      "kind": "add_missing_page",
+      "description": "Ingested docs-workers-examples-analytics-engine: page was not yet in the index."
+    },
+    {
+      "page_id": "docs-workers-local-development-bindings-per-env",
+      "kind": "correct_stale_number",
+      "description": "Corrected stale figure on docs-workers-local-development-bindings-per-env: '10' -> '1'."
+    },
+    {
+      "page_id": "docs-d1-platform-alpha-migration",
+      "kind": "correct_stale_number",
+      "description": "Corrected stale figure on docs-d1-platform-alpha-migration: '00' -> '0'."
+    },
+    {
+      "page_id": "docs-d1-platform-alpha-migration",
+      "kind": "correct_stale_number",
+      "description": "Corrected stale figure on docs-d1-platform-alpha-migration: '1.5' -> '3'."
+    },
+    {
+      "page_id": "docs-d1-platform-alpha-migration",
+      "kind": "correct_stale_number",
+      "description": "Corrected stale figure on docs-d1-platform-alpha-migration: '3' -> '6'."
+    },
+    {
+      "page_id": "docs-workers-testing-miniflare-core-standards",
+      "kind": "correct_stale_number",
+      "description": "Corrected stale figure on docs-workers-testing-miniflare-core-standards: '100' -> '200'."
+    }
+  ],
+  "retrieval_miss_pages_still_failing_after_fix": [
+    "blog-translate-your-cloudflare-site",
+    "docs-workers-wrangler-commands-r2",
+    "docs-workers-configuration-cloudflare-access"
+  ]
+}

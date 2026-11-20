@@ -1,0 +1,26 @@
+{
+  "pages_in_corpus": 383,
+  "passages_in_corpus": 591,
+  "frozen_question_count": 300,
+  "scenario_pages": 9,
+  "fix_count": 8,
+  "before_citation_supported_rate": 0.67,
+  "before_failure_breakdown": {
+    "missing_page": 33,
+    "stale_number": 33,
+    "retrieval_miss": 33
+  },
+  "after_citation_supported_rate": 0.8866666666666667,
+  "after_failure_breakdown": {
+    "missing_page": 0,
+    "stale_number": 0,
+    "retrieval_miss": 34
+  },
+  "retrieval_miss_pages_discovered": 3,
+  "retrieval_miss_pages_fixed": 0,
+  "retrieval_miss_pages_still_failing_after_fix": [
+    "blog-translate-your-cloudflare-site",
+    "docs-workers-wrangler-commands-r2",
+    "docs-workers-configuration-cloudflare-access"
+  ]
+}
